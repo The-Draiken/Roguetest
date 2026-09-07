@@ -1,0 +1,94 @@
+function ParryModCheck()
+	entity = entity or (context.Observer or context.Source)
+  	return (entity.ProficiencyBonus * 2)
+end
+
+function DodgeModCheck()
+	entity = entity or (context.Observer or context.Source)
+	return (entity.ProficiencyBonus * 2)
+end
+
+function HealingSpellCheck()
+	return SpellId('Target_CureWounds') 
+	| IsSpellChildOrVariantFromContext('Target_CureWounds')  
+	| SpellId('Target_HealingWord')
+        | IsSpellChildOrVariantFromContext('Target_HealingWord') 
+	| SpellId('Target_CureWounds_Mass')
+        | IsSpellChildOrVariantFromContext('Target_CureWounds_Mass') 
+	| SpellId('Shout_PrayerOfHealing')
+        | IsSpellChildOrVariantFromContext('Shout_PrayerOfHealing')    
+	| SpellId('Shout_HealingWord_Mass')
+	| IsSpellChildOrVariantFromContext('Shout_HealingWord_Mass')   
+	& HasSpellFlag(SpellFlags.Spell)
+end
+
+function IsHeal()
+	return HasFunctor(StatsFunctorType.RegainHitPoints) & HasSpellFlag(SpellFlags.Spell)
+end
+
+function DamageGreaterThirdMaxHP(entity)
+    entity = entity or context.Target
+    local threshold = math.floor(entity.MaxHP * 0.33)
+    return ConditionResult(context.HitDescription.TotalDamageDone > threshold)
+end
+
+function IsAbilityModifier(ability, expectedMod, entity)
+    entity = entity or context.Source
+    if type(expectedMod) ~= "number" then
+        return ConditionResult(false, {ConditionError("ExpectedModNotNumber")})
+    end
+    if expectedMod < 1 or expectedMod > 5 then
+        return ConditionResult(false, {ConditionError("ExpectedModOutOfRange")})
+    end
+    local score = entity[ability] or 0
+    local mod = math.floor((score - 10) / 2)
+    return ConditionResult(
+        mod == expectedMod,
+        {ConditionError("AbilityModifier_False", {ability, expectedMod, score, mod})},
+        {ConditionError("AbilityModifier_True", {ability, expectedMod, score, mod})}
+    )
+end
+
+function StrengthMod(expected, entity)
+    entity = entity or context.Source
+    local mod = GetModifier(entity.Strength)
+    return ConditionResult(mod == expected)
+end
+
+function ReactionDodgeDC()
+  return 8
+       + context.Source.ProficiencyBonus
+       + GetModifier(context.Source.Dexterity)
+end
+
+function ReactionParryDC()
+    entity = entity or context.Observer
+    return 8
+         + entity.ProficiencyBonus
+         + GetModifier(entity.Strength)
+end
+
+
+function StrengthMod(expected, entity)
+    entity = entity or context.Source
+    return ConditionResult(GetModifier(entity.Strength) == expected)
+end
+
+function WisdomMod(expected, entity)
+    entity = entity or context.Source
+    return ConditionResult(GetModifier(entity.Wisdom) == expected)
+end
+
+function IntelligenceMod(expected, entity)
+    entity = entity or context.Source
+    return ConditionResult(GetModifier(entity.Intelligence) == expected)
+end
+
+function WarsongDC()
+    local pb = context.Target.ProficiencyBonus
+    local cha = GetModifier(context.Target.Charisma)
+    local spellDC = 8 + pb + cha
+    local damageDC = math.floor(context.HitDescription.TotalDamageDone / 2)
+    return math.max(spellDC, damageDC)
+end
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Feats">
+        <node id="root">
+            <children>
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="COMBATMEDIC_CM"/>
+                    <attribute id="PassivesAdded" type="LSString" value="CombatMedic_CM"/>
+                    <attribute id="UUID" type="guid" value="d848d33f-0aba-4098-b0fb-a4399cbe48ba"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="CM_DEFENSE"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(6a37628f-f20b-4ce5-afa9-2df717ea2888,1,Techniques)"/>
+                    <attribute id="UUID" type="guid" value="120f1cdc-c686-492d-af83-40267f93c81d"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="CM_MELEE"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(0c95c234-26cb-4bd5-b2bf-afaf81580ffc,1,Techniques)"/>
+                    <attribute id="UUID" type="guid" value="0c95c234-26cb-4bd5-b2bf-afaf81580ffc"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="CM_RANGED"/>
+                    <attribute id="Selectors" type="LSString" value="SelectPassives(3310b66b-2fae-475f-a1db-90326db14f00,1,Techniques)"/>
+                    <attribute id="UUID" type="guid" value="1d945e73-f38b-4e87-a155-ff28d5da5b47"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="VIGILANCE"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Vigilance_CM"/>
+                    <attribute id="UUID" type="guid" value="4cb24a13-2a05-4195-a774-7c6693f8a5df"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="CanBeTakenMultipleTimes" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="DIVINEGRACE_CM"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DivineGrace_CM"/>
+                    <attribute id="Selectors" type="LSString" value="SelectAbilities(eaaa88b8-336c-4b58-942d-261db57afb81,1,1,LightlyArmoredASI)"/>
+                    <attribute id="UUID" type="guid" value="2dbee91c-c22c-4977-87fa-2bd9dd1d734a"/>
+                </node>
+                <node id="Feat">
+                    <attribute id="Name" type="FixedString" value="WarCaster"/>
+                    <attribute id="PassivesAdded" type="LSString" value="WarCaster_Bonuses;WarCaster_OpportunitySpell;FreeCasting_CM"/>
+                    <attribute id="UUID" type="guid" value="ed4e367d-d136-4285-abac-077147e84cf2"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

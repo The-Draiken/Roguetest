@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="AbilityLists">
+        <node id="root">
+            <children>
+                <node id="AbilityList">
+                    <attribute id="Abilities" type="LSString" value="Constitution, Wisdom, Charisma"/>
+                    <attribute id="Name" type="FixedString" value="Divine Grace"/>
+                    <attribute id="UUID" type="guid" value="eaaa88b8-336c-4b58-942d-261db57afb81"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

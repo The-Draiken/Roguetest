@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Combat Mastery: Melee"/>
+                    <attribute id="Passives" type="LSString" value="Execute_CM,Revenge_CM,Outflank_CM,CoupDeGrace_CM,Cleave_CM"/>
+                    <attribute id="UUID" type="guid" value="0c95c234-26cb-4bd5-b2bf-afaf81580ffc"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Combat Mastery: Ranged"/>
+                    <attribute id="Passives" type="LSString" value="CalledShot_CM,DistractingShot_CM,PointBlankShot_CM"/>
+                    <attribute id="UUID" type="guid" value="3310b66b-2fae-475f-a1db-90326db14f00"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Combat Mastery: Defense"/>
+                    <attribute id="Passives" type="LSString" value="Endure_CM,Dodge_CM,RaiseShield_CM"/>
+                    <attribute id="UUID" type="guid" value="6a37628f-f20b-4ce5-afa9-2df717ea2888"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="49704931-e47b-4ce6-abc6-dfa7ba640752"/>
+                    <attribute id="Name" type="FixedString" value="Metamagic Emp"/>
+                    <attribute id="Passives" type="LSString" value="Metamagic_Empowered,Metamagic_Bolstered,Metamagic_Barrage,Metamagic_MaxHeal"/>
+                    <attribute id="UUID" type="guid" value="9d14d28d-9c33-4fa0-bebb-7304360b8431"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="c3506532-36eb-4d18-823e-497a537a9619"/>
+                    <attribute id="Name" type="FixedString" value="Metamagic Emp2"/>
+                    <attribute id="Passives" type="LSString" value="Metamagic_Empowered,Metamagic_Bolstered,Metamagic_Barrage,Metamagic_MaxHeal"/>
+                    <attribute id="UUID" type="guid" value="072bc961-f100-428a-9b37-827ded83265e"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="GreaterMetamagic"/>
+                    <attribute id="Passives" type="LSString" value="Metamagic_Penetrating,Metamagic_Devastating,Metamagic_Maximized"/>
+                    <attribute id="UUID" type="guid" value="657e1be6-6df5-4ec7-8375-b58add6acb5b"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Combat Mastery: Combined"/>
+                    <attribute id="Passives" type="LSString" value="Execute_CM,CoupDeGrace_CM,Revenge_CM,Outflank_CM,Cleave_CM,Slash_CM,CalledShot_CM,DistractingShot_CM,Endure_CM,Dodge_CM,RaiseShield_CM"/>
+                    <attribute id="UUID" type="guid" value="b0854da9-ea25-4a80-aaec-34976ac07964"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Rogue Style"/>
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Dueling,FightingStyle_TwoWeaponFighting,FightingStyle_Archery"/>
+                    <attribute id="UUID" type="guid" value="11f3b209-eb13-42d2-9fec-46dfc68fe619"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Rogue Combat Choice"/>
+                    <attribute id="Passives" type="LSString" value="ExtraAttack,Backstab_CM,Deadeye_CM"/>
+                    <attribute id="UUID" type="guid" value="e1a7b684-6c54-47fc-8bf4-845ddb497c53"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Barbarian CM"/>
+                    <attribute id="Passives" type="LSString" value="Execute_CM,Revenge_CM,Cleave_CM"/>
+                    <attribute id="UUID" type="guid" value="c3aebcaf-cb6d-4df5-b23f-94ebac6f36c7"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="39efef92-9987-46e2-8c43-54052c1be535"/>
+                    <attribute id="Name" type="FixedString" value="Warlock CM1"/>
+                    <attribute id="Passives" type="LSString" value="EldritchPower_CM,Weave_Quickened,Weave_Twinned,Weave_Heightened"/>
+                    <attribute id="UUID" type="guid" value="ca673990-0a0a-4d0f-8f76-66a15419d6e1"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="a2d72748-0792-4f1e-a798-713a66d648eb"/>
+                    <attribute id="Name" type="FixedString" value="Warlock CM2"/>
+                    <attribute id="Passives" type="LSString" value="EldritchPower_CM,Weave_Quickened,Weave_Twinned,Weave_Heightened"/>
+                    <attribute id="UUID" type="guid" value="3c4da841-4f63-4d76-9208-f6984a00cd5f"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844"/>
+                    <attribute id="Name" type="FixedString" value="Warlock CM3"/>
+                    <attribute id="Passives" type="LSString" value="EldritchPower_CM,Weave_Quickened,Weave_Twinned,Weave_Heightened"/>
+                    <attribute id="UUID" type="guid" value="f33a322a-ac7c-4363-aafb-df9cd8cd3ab0"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="0e140900-14d9-4c38-8720-49936dbb8ba7"/>
+                    <attribute id="Name" type="FixedString" value="Pact of the Weave"/>
+                    <attribute id="Passives" type="LSString" value="PactOfTheWeave"/>
+                    <attribute id="UUID" type="guid" value="80e5e696-f4eb-42b2-b971-ae6ffa6e1338"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="8adab8f9-e360-4f79-851b-2c7e050ca23d"/>
+                    <attribute id="Name" type="FixedString" value="Warlock CM0"/>
+                    <attribute id="Passives" type="LSString" value="EldritchPower_CM,Weave_Quickened,Weave_Twinned,Weave_Heightened"/>
+                    <attribute id="UUID" type="guid" value="21226a2d-a4c6-44b0-8e54-ba769bbbcc65"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="WizardMetamagic"/>
+                    <attribute id="Passives" type="LSString" value="Wizard_Quickened,Wizard_Heightened,Wizard_Twinned,Wizard_Careful,Wizard_Extended,Wizard_Bolstered"/>
+                    <attribute id="UUID" type="guid" value="3e8b3764-36f6-4ff3-ae6c-7f2de3cbc489"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="ClericMetamagic"/>
+                    <attribute id="Passives" type="LSString" value="Cleric_Bolstered,Cleric_Heightened,Cleric_Quickened,Cleric_Twinned,Cleric_Extended,Cleric_MaxHeal"/>
+                    <attribute id="UUID" type="guid" value="2bf398bb-c642-457e-8da8-1fa186b15f1c"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="DruidMetamagic"/>
+                    <attribute id="Passives" type="LSString" value="Druid_Bolstered,Druid_Heightened,Druid_Quickened,Druid_Twinned,Druid_Extended,Druid_MaxHeal,Druid_Distant,Druid_Empowered"/>
+                    <attribute id="UUID" type="guid" value="c25d0cfa-b3af-4950-a569-f8da8fe5deab"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="MinorMetamagic"/>
+                    <attribute id="Passives" type="LSString" value="Minor_Distant,Minor_Subtle,Minor_Empowered,Minor_Barrage"/>
+                    <attribute id="UUID" type="guid" value="5bee9f26-5e9b-44b9-80cb-36b749d5aa57"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Sorcerer9"/>
+                    <attribute id="Passives" type="LSString" value="ArcaneOverkill,FuryOfMagic"/>
+                    <attribute id="UUID" type="guid" value="cbd99976-5c96-468c-8e8a-73b03e470d66"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="d0f13dda-eb37-41f5-aea5-2683f0229e2e"/>
+                    <attribute id="Name" type="FixedString" value="RangerHunterMark"/>
+                    <attribute id="Passives" type="LSString" value="FavoredEnemy_EndlessHunt"/>
+                    <attribute id="UUID" type="guid" value="6e0708ee-1186-4b54-8586-ac2711bb564c"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="PaladinSalvation"/>
+                    <attribute id="Passives" type="LSString" value="Salvation_CM,QuickLOH_CM"/>
+                    <attribute id="UUID" type="guid" value="7e71260f-93c2-4327-87e9-3e7494a40df1"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="DestructiveMagic"/>
+                    <attribute id="Passives" type="LSString" value="DestructiveMagic,DestructiveMagic2"/>
+                    <attribute id="UUID" type="guid" value="6f7a850d-4691-4bff-a198-c2aa3093ecea"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

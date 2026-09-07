@@ -1,0 +1,560 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="haa947e32gd5e3g943agcfb1g5a055a32a88d" version="4">Execute</content>
+  <content contentuid="h5e4a8e69g0666g14a9gb318g1fa34fa45dee" version="3">When a foe you threaten becomes severely injured, use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make an attack. </content>
+  <content contentuid="h37aae4b4gb1d5g8f37g61c5g9abae1d671db" version="4">Execute</content>
+  <content contentuid="h868fe9bdg7bc9gc9cbg18b2g6a3deba75085" version="10">When a foe you threaten is gravely injured, you can make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt;.</content>
+  <content contentuid="hab8dc027gec81g5a18g5abdg7a3281107a1f" version="2">Revenge</content>
+  <content contentuid="hd931f7aagfc21g64bdg9a6dg1b559136628b" version="5">When you are hit with a melee attack, you can make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; that knocks your foe back [1]. </content>
+  <content contentuid="h523a0879g1406g473fgc2d5g05170994aeb9" version="2">Outflank</content>
+  <content contentuid="hdf5f09c3g25c2g20e2gd521g49168eb5df11" version="6">When an ally misses an enemy that you both threaten, gain an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt;.</content>
+  <content contentuid="h5337b32bgcb38gbbdfgbf6eg2eead209013d" version="4">Revenge</content>
+  <content contentuid="h0dd2d7c3g233dgf2e3g42acgbf7576db23cb" version="4">When you are hit with a melee attack, you can make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; that knocks your foe back [1]. </content>
+  <content contentuid="h8432a62agcdd7g5736g1191g05a677f05415" version="4">Outflank</content>
+  <content contentuid="h4177f117gd15cgf113g0c9cge662fabd46e4" version="5">When an ally misses an enemy that you both threaten, gain an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Reduce the number you need to roll to score a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; against targets threatened by an ally.</content>
+  <content contentuid="h1efc8ca1g21feg5ae2g5d00gb8f419bcc388" version="1">Assist Active</content>
+  <content contentuid="hcd76c042gc4ebgc49fgbbf7g05dca5722763" version="1">Prevents Assist from triggering multiple times during the same event.</content>
+  <content contentuid="h71ebe913g05abgea1ag8723g01d793bbe7dc" version="1">Polearm Master: Opportunity Attack</content>
+  <content contentuid="h062e4568gfad4g523dgc830g6ad812a090af" version="1">Make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; whenever a creature enters your reach.</content>
+  <content contentuid="hb0db65a0g0757g2495g5c54g2cadc2276d0d" version="1">Prerequisite: Must be wielding a glaive, halberd, quarterstaff, or spear.</content>
+  <content contentuid="hdaaca95eg6c70gb1dagaa8fge42d06609dac" version="1">Distracting Shot</content>
+  <content contentuid="h75eb0929ga306g9e00g2bb9ge495589148c2" version="2">Attempt to disrupt an enemy spellcaster as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; if they cast a spell near you.</content>
+  <content contentuid="h5dc9fc85gc422g92ffg17a6g0bb9ccf502d2" version="2">Distracting Shot</content>
+  <content contentuid="h98345191g08d7ga44dg136bg17387fce0d30" version="3">When an enemy casts a spell, you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to attempt a &lt;LSTag Type="Spell" Tooltip="Projectile_DistractingShot"&gt;Distracting Shot&lt;/LSTag&gt;.</content>
+  <content contentuid="h510a3616g3197g131eg3738g7c0c7e697785" version="1">Assist Attack</content>
+  <content contentuid="h34478beegb05egb5b9gfd48gc6019f4b0b2c" version="1">Make a melee attack with your equipped weapon.</content>
+  <content contentuid="hb6dd3b11g6b83g2d2cg2960ge9d79f047f12" version="2">Combat Mastery: Ranged</content>
+  <content contentuid="h13ec6852g978egee31gd69eg97a4c4c251a4" version="2">When a nearby enemy casts a spell, you may make use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make a ranged attack roll to interrupt it.</content>
+  <content contentuid="ha9dba26bgf410g2536gb4e4gfc8225c06eff" version="3">Back Stab</content>
+  <content contentuid="h02480cb3g9291gd513g752fg582b91ee05f3" version="1">Attack an enemy as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; if they take an action near you.</content>
+  <content contentuid="h5d2ceee0g2b30gfa6cgdea8g38a2fbc9ff69" version="4">Backstab</content>
+  <content contentuid="hf9acddb4g7900g5c4egb394g1d7a6638aaae" version="11">When an ally strikes an enemy that you threaten, you gain an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; against the target foe, dealing bonus damage equal to half your Sneak Attack dice.</content>
+  <content contentuid="hbcd39399gb8cag8cedg0615g2e35a63b9b08" version="1">ASSIST</content>
+  <content contentuid="h818965d5g1c5ega83dgbffcg90f50ba194bd" version="1">Rdy2Assist</content>
+  <content contentuid="hc998d12fg1c41g85b3gbf36g41da9a96b691" version="1">ASSIST_TRIGGER</content>
+  <content contentuid="h8ceea00bgbb3ag8f1ag2bd8g3e6f50332fdb" version="1">CannotTriggerAssist</content>
+  <content contentuid="h258fa940g5904gd77ag0c34gebad655c529f" version="1">Retaliation</content>
+  <content contentuid="h8199a6e5ge707g776ag5b71g0004695444ec" version="1">Strike back at your attacker</content>
+  <content contentuid="hbdc63b6fgbbbcg7bcage767g3949a4931eb3" version="1">Assist Attack</content>
+  <content contentuid="h389ea6ceg2ba1gca29g4873gcc46b6c3283a" version="1">Make an attack against an enemy your ally is attacking</content>
+  <content contentuid="haae065b4gd253g92a2ge91bg56ea11d7620b" version="3">Combat Mastery: Melee</content>
+  <content contentuid="h94826f69g93fbg8434g23e2ga3cb29063376" version="2">Enhance your combat skills with these Reaction based attacks</content>
+  <content contentuid="h160a6b02g3c09g6979g8a42g2dc3c23ea45f" version="1">Storm Bolt</content>
+  <content contentuid="h8ff802b6gefb9g0365gef66g2803bf5c7823" version="1">Conjure a small bolt of lightning to strike a distant target.</content>
+  <content contentuid="ha50f3558g6dbeg71f6gebaagab6d65d9d08b" version="5">Called Shot</content>
+  <content contentuid="h053d30f4g4d68g2d7egc3fdg59f6cd49718a" version="7">When a foe becomes &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt;, you gain a ranged &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; against them. </content>
+  <content contentuid="hbea3c0begc2bdg8259g1ac7g761904c86efd" version="4">Called Shot</content>
+  <content contentuid="h63205d0cgffd4g7013g5307gdba94587d683" version="8">When an ally causes a foe to become &lt;LSTag Type="Status" Tooltip="RESTRAINED"&gt;Restrained&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; or otherwise &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt;, you gain a ranged &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; against them.&lt;br&gt;&lt;br&gt;Ranged weapon attacks against &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;Paralyzed&lt;/LSTag&gt; foes result in a critical hit.</content>
+  <content contentuid="h532678bag4d37gabe9gf5adg4203fe0fbe8a" version="1">Enhance your combat skills with these Reaction based attacks</content>
+  <content contentuid="h364c35f7g5b12g68ccg6573g62b18a0aa98a" version="1">Overwatch</content>
+  <content contentuid="h8d22f52ag2395g657fg5fd1gdadf69938a88" version="6">When a foe enters your ranged attack radius, you can make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt;.</content>
+  <content contentuid="h6ca5372eg5604g1185g4189g0b267e8720d1" version="2">Overwatch</content>
+  <content contentuid="hf1532846g6944g6e7agd9b9gd483df35ee13" version="4">When a foe enters your ranged attack radius, you can make a ranged &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt;. </content>
+  <content contentuid="h94567792gd1d2g23c5g2a45gd73d22d346e5" version="1">Combat Mastery: Ranged</content>
+  <content contentuid="h50245cffg40b6g77aeg7487g4645ad7ae176" version="1">Enhance your combat skills with these Reaction based attacks</content>
+  <content contentuid="h812e43f9g6945g434eg5368g6786e7bfebc2" version="6">Codex of Might (Melee)</content>
+  <content contentuid="h0f57be48g8bb5g15b2gdcf2g2c2177f98646" version="6">Expand your arsenal with new attacks and reactions.</content>
+  <content contentuid="h12944fd1gf620gbb08ga968g721bc63dfb4f" version="5">Codex of Might (Ranged)</content>
+  <content contentuid="hc1f1464age3f8g6373gcbe8g90607695a018" version="4">Wield ranged weapons with incredible precision and alacrity. </content>
+  <content contentuid="he17f3585gc82bg98a6ga089gc9f15021c2f4" version="4">Metamagic: Empowered Spell</content>
+  <content contentuid="h613c95e1gac48g63edgded8ga679bc9339f9" version="14">Spells that deal direct damage gain &lt;LSTag Tooltip="ADVANTAGE"&gt;Advantage&lt;/LSTag&gt; on spell damage rolls and +2 on Spell Attacks and Spell DC.&lt;br&gt;&lt;br&gt;Costs [1] Sorcery Point&lt;br&gt;&lt;br&gt;You can use Empowered Spell in combination with other Metamagic.</content>
+  <content contentuid="hb4f2d451g377eg43e6g7901g27653dbd3622" version="7">Metamagic: Bolstered Spell</content>
+  <content contentuid="h049e5c78g0268gd478g9d3dg9bf66ba7be8a" version="17">Leveled spells that deal direct damage and have a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; deal an additional [2] damage.&lt;br&gt;&lt;br&gt;Costs [1] Sorcery Points. </content>
+  <content contentuid="h704cb8c5gd420gc46eg2f12gd62059588599" version="1">DoubleSpellDamage</content>
+  <content contentuid="h4592034dgc4b3g9a6cgbf7fg3d88b353b615" version="1">Metamagic: Quickened Spell</content>
+  <content contentuid="h21bdb118g146fgc8fegb30bg2c6399e940dc" version="1">Spells that cost an action cost a bonus action instead. &lt;br&gt;&lt;br&gt;Costs [1] Sorcery Points per spell.</content>
+  <content contentuid="h9a5f1b06gab95g16ddg996eg50e3e13162e9" version="3">Dodge</content>
+  <content contentuid="h9d22c2e5g1235g626fg3486g982d57b2d6bd" version="9">Use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to attempt to dodge the next attack that may hit you by passing a DC [1]+[2] Dexterity check. </content>
+  <content contentuid="h9e6e6149g6ed3gca18g828dg45c3d01deec4" version="3">Dodge</content>
+  <content contentuid="h6069e710g3abegdd9dg1500gb3d40da6ff7e" version="12">Use your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; to gain AC equal to your Dexterity modifier, &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity saves and cannot be critically hit until the start of your next turn. Being hit by an attack ends the stance early. </content>
+  <content contentuid="h27cc28c0g4949g7360g6cfbg06ab9706417e" version="2">Raise Shield</content>
+  <content contentuid="h18b83eb8g645dga7dbg4bd8g9929ff9e2f5d" version="7">When you are attacked you can raise your Shield as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; and negate all physical damage less than twice your Strength modifier ([1])&lt;br&gt;&lt;br&gt;Your shield remains raised until the start of your next turn.</content>
+  <content contentuid="he2feb9d3g7666g6039g1125g75194a5a65ff" version="3">Raise Shield</content>
+  <content contentuid="h6d78f388gc4c2gccfdg379dgb1e310546150" version="11">Raise your shield as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; and reduce incoming physical damage by [1]+[2]&lt;br&gt;&lt;br&gt;Your shield remains raised until the start of your next turn and you cannot be critically hit by weapon attacks.</content>
+  <content contentuid="h5d6fb6acgf591gb1d8g0792g1f0b03de10bb" version="1">Metamagic: Quickened Spell</content>
+  <content contentuid="h54142063gc9c7g51bag9e0ag0fcc3f019eb0" version="3">Cast a spell as a &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;Costs [1] Sorcery Points per spell.</content>
+  <content contentuid="h62a0f428g276cg017cg146eg1c950a34efd6" version="3">Metamagic: Swift Spell</content>
+  <content contentuid="h839af663g32bbgf1beg7d30gd735ca5afea6" version="2">Cast a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; as a &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;&lt;br&gt;&lt;br&gt;Costs [1] Sorcery Point per spell.</content>
+  <content contentuid="hab42e861g2e49g1eb3gb092gf7a693e18942" version="1">Metamagic: Heightened Spell</content>
+  <content contentuid="hd73996bbg4e41g46d5gc9degaa6a7dabc750" version="1">Targets of spells that require &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their first Saving Throw. &lt;br&gt;&lt;br&gt;Costs [1] Sorcery Points per spell.</content>
+  <content contentuid="h3882b27cg5fadg75f0g24c0g3f7d80b6eb10" version="1">Sorc Points</content>
+  <content contentuid="he3ac0c25g98ecg7411g92d0gb819ede93e2e" version="1">Arcane Overkill</content>
+  <content contentuid="he1477814gcb64g1265g10c1g00d302638cf9" version="7">Once per turn, when you slay a creature with a spell, you gain [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Point&lt;/LSTag&gt;.</content>
+  <content contentuid="ha9e74e3fg1ca2g5f4cg4ed0g38706f11e691" version="1">Ablaze</content>
+  <content contentuid="h41cd4584gd7f0g7edag1636g761f3213e1a7" version="3">Takes an additional [1] when damaged by Fire per stack remaining.</content>
+  <content contentuid="h8c3dcf85g9603g3ccfg8941g5581dc993de0" version="1">Elementalist</content>
+  <content contentuid="h22c679ecgbe65gaf41ga265g749969f8685e" version="3">Your Elemental damage spells apply a powerful variant of their associated status. &lt;br&gt;Fire: &lt;LSTag Type="Status" Tooltip="ABLAZE"&gt;Ablaze&lt;/LSTag&gt; &lt;br&gt;Cold: Blackfrost&lt;br&gt; Lightning: Electrocuted&lt;br&gt;Thunder: Deafen &lt;br&gt;Acid: Melt Armor&lt;br&gt;Poison: Sicken&lt;br&gt;</content>
+  <content contentuid="h768ab094g24c4gd978gf7ddg5268150841c4" version="1">Black Frost</content>
+  <content contentuid="h11d2280ag3b0bgb735g550agccc14d053ef6" version="1">Breach: Fire</content>
+  <content contentuid="h7d29f581gce9dg0182gb788g9626b62f92b3" version="1">Vulnerable to the next Fire damage spell.</content>
+  <content contentuid="hac261908ge582g8b9dg818eg029c4a0f282f" version="1">Breach: Cold</content>
+  <content contentuid="h265514c0g65eeg37a1g3d97gbfd35c992a66" version="1">Vulnerable to the next Cold damage spell.</content>
+  <content contentuid="ha120cdcfg3199g16a7g54f1g8c1e73c67d0d" version="1">Breach: Lightning</content>
+  <content contentuid="hdc952765g9c27gb53ag339fge43916340f82" version="1">Vulnerable to the next Lightning damage spell.</content>
+  <content contentuid="h49500a7ag5537g3ae5g4ee5g90fa4b03fb64" version="1">Breach: Thunder</content>
+  <content contentuid="h0aa9f29bg6cf4gbb91gaba3g59e4051df0b3" version="1">Vulnerable to the next Thunder damage spell.</content>
+  <content contentuid="hdc8b112cg175dgd565g1615gb00f6c41d552" version="2">Devastated</content>
+  <content contentuid="hc157686bg9441g6329g576cg91ab9ac269aa" version="2">&lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to the next damaging spell.</content>
+  <content contentuid="h5249ac82g4728ge4feg774ag8b91d0e62f7d" version="2">Metamagic: Devastating Spell</content>
+  <content contentuid="hd1a3eb7ag8f9agd196g354dgc3c3a489c9a2" version="4">Spells that deal damage cause targets hit to become &lt;LSTag Tooltip="Vulnerable"&gt;Vulnerable&lt;/LSTag&gt; to the next damaging spell effect.&lt;br&gt;&lt;br&gt;Costs [1] Sorcery Points.&lt;br&gt;&lt;br&gt;Devastating Spell can be used in combination with other Metamagic.</content>
+  <content contentuid="h5baaffbdg31e7ga627gd31cgcdc8a501ec42" version="1">Occultist</content>
+  <content contentuid="heb261f9cgb74fgb6f6g5ed0g5c11d29e1606" version="1">Your Occult damage spells apply a powerful variant of their associated status. &lt;br&gt;Radiant: Condemn&lt;br&gt;Necrotic: Decay&lt;br&gt;Force: Topple&lt;br&gt;Psychic: Horror&lt;br&gt;</content>
+  <content contentuid="h83999235g01d5g2655g5c88g14ebad780e49" version="1">Metamagic: Penetrating Spell</content>
+  <content contentuid="h7909116bg5f30g82bfg5b15g27bfb3a86ce5" version="1">Gain an additional [2] Spell DC on your next cast. &lt;br&gt;&lt;br&gt;Costs [1] Sorcery Points per spell. &lt;br&gt;&lt;br&gt; Penetrating Spell can be used in combination with other metamagic</content>
+  <content contentuid="h76bfaa86gd031g4fbeg9553g6464008e39fe" version="2">Metamagic: Maximized Spell</content>
+  <content contentuid="h23332544gb892g136cg3217g01797ceb15d8" version="7">Spell damage rolls will roll for the maximum value.&lt;br&gt;&lt;br&gt;Costs [1] Sorcery Points.&lt;br&gt;&lt;br&gt;Maximized Spell can be used in combination with other Metamagic.</content>
+  <content contentuid="heaf92c8ag36e0g773aged75g174e4c4c5a5e" version="1">Fury Of Magic</content>
+  <content contentuid="h93fb6d0fg6f70g4177g6f66g1ae6d8a4a107" version="7">Your magic burns with rage. The number you need to roll to score a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with spells is reduced by 1. </content>
+  <content contentuid="h8992489dg6111gd014g1a32geaf7739854aa" version="1">Brutal Critical</content>
+  <content contentuid="hc87b4d33g25eagbf4bg0fb6gb8b3b56bfba2" version="2">You've trained to strike swift and true. Your chance to critically hit is increased by 1 and when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you roll an extra damage die as well as the normal additional critical dice.</content>
+  <content contentuid="h92fc8a93g9511g4ae2g44ccg9ca98cbdeca5" version="3">Raised Shield</content>
+  <content contentuid="h0644fd7bg8897g03ecge47bgb45f394bc058" version="10">Your shield is raised, reducing incoming physical damage by [1] + [2]. Cannot be critically hit by weapon attacks.</content>
+  <content contentuid="h53009562ga86dg025eg258egfab00b2e1be7" version="1">Brutal Critical</content>
+  <content contentuid="h5ec501e6g9212g23d1gc0b9g2dfd880e9715" version="2">You've trained to strike swift and true. Your chance to critically hit is increased by 1 and when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you roll an extra damage die as well as the normal additional critical dice.</content>
+  <content contentuid="h6ca62332g40c2g9800g435dg7dc2f8452e35" version="1">Brutal Critical</content>
+  <content contentuid="hf62ea3ebg9e32g804fgc078ga88df3a85498" version="2">You've trained to strike swift and true. Your chance to critically hit is increased by 1 and when you land a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, you roll an extra damage die as well as the normal additional critical dice.</content>
+  <content contentuid="hfa2742c0gc0bcg5d4dg6cbfgbd470a7738bf" version="2">Backstab</content>
+  <content contentuid="h6c45bd2fgc6dag3d39g7069g3486fbd1686f" version="3">Make an attack against a distracted enemy, dealing additional damage equal to half your &lt;LSTag Type="Spell" Tooltip="Target_SneakAttack"&gt;Sneak Attack&lt;/LSTag&gt; on hit.</content>
+  <content contentuid="hfd7789ecg8fe9g203bg7512g0ed95c5204e7" version="1">Backstab</content>
+  <content contentuid="hcf0eb7d3gbfe6gba2agd749ga5eefee880e5" version="8">When an ally strikes an enemy that you threaten, you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to perform a &lt;LSTag Type="Spell" Tooltip="Target_Backstab"&gt;Backstab&lt;/LSTag&gt;.</content>
+  <content contentuid="h5892ebb1g7ed6gc92cga259gbc9690c56a25" version="1">Crane Strike</content>
+  <content contentuid="hc666c0f8g317cge6b6g8982g656839dd3ec1" version="3">Strike back at your attacker when they miss you, knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; on hit.</content>
+  <content contentuid="he84dc391g879cg9fe1g0ef9gbe462b165398" version="1">Crane Strike</content>
+  <content contentuid="h2fff49e4g6bcdgef27g7f72g625b4fcc4af3" version="3">When you are missed by a melee attack, use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make a retaliatory strike that knocks your foe &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;</content>
+  <content contentuid="h7021bff4g637bgaf19g2b01g1dde950af817" version="2">Crane Strike</content>
+  <content contentuid="h05376199g800cg066fg4331ge9a9e130c614" version="2">When you are missed by a melee attack, use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to make a retaliatory strike that knocks your foe &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;</content>
+  <content contentuid="ha380adcfg4a81gb496gf359g40d3bb41c969" version="1">Retaliation</content>
+  <content contentuid="h8f709d6eg8549g4c1fg7022g112b25fd9e87" version="1">Strike back at your attacker</content>
+  <content contentuid="h312120cdg2085g7621g3270gf6224ab93599" version="2">Great Cleave</content>
+  <content contentuid="h65d1682fgb7f8g8c81g525eg320af6e31d50" version="5">You can use &lt;LSTag Type="Spell" Tooltip="Zone_Cleave_CM"&gt;Great Cleave&lt;/LSTag&gt; once per turn with a Heavy weapon.</content>
+  <content contentuid="h829060fegfd85gced5g1f2bgb65ce84a321d" version="3">Destructive Magic</content>
+  <content contentuid="hd3c2cddfgb899g7f35gacd0g9f63e2d2a672" version="7">The number you need to roll to score a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with spells is reduced by 1. </content>
+  <content contentuid="h4cf6f815gfa83ge421g67acg7524f8c5b521" version="1">While Raised, your movement is reduced by [1]</content>
+  <content contentuid="h19782f9fg8e49gfa73g8353g7b88e108cc21" version="1">Divine Light</content>
+  <content contentuid="h243808b4g09a5g8e82g112egef1b0dfc9c27" version="1">Overwatch</content>
+  <content contentuid="h587f321egf696ga68fg3d63g26aff609c63f" version="2">Ready to attack foes entering your line of sight</content>
+  <content contentuid="h9587a5d7g4f65ga987gf61dg78f166b65782" version="1">##Blocks Overwatch from reapplying</content>
+  <content contentuid="h34228355g68a7gea4fg81e2gbe0a64e0e6d3" version="1">##Range Check to reset OVERBLOCK</content>
+  <content contentuid="hdb13538fgfb2egb13ag7e12gf8571a80f86c" version="2">A foe triggered your Overwatch.</content>
+  <content contentuid="h1e0afd3dg3cf1gf20cg76c8g2ca5225edf61" version="1">When a severely injured foe you theaten is hit by an attack, gain an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt;.</content>
+  <content contentuid="h91bb51aaga3e7gd028gedb8gd5a0142f8969" version="1">Overwatch</content>
+  <content contentuid="h863ff6a9g256bg3a43g6aa4ge6a38a515a99" version="5">Ready your ranged weapon to gain an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; when foes walk into your view. </content>
+  <content contentuid="h2111baf2g04feg55e9g17a8g4187dc33e7d5" version="1">Overwatch</content>
+  <content contentuid="hb40962afg5451g8eb2gbf93g572e0c247df5" version="1">##Block Overwatch from triggering on foes already in range</content>
+  <content contentuid="h910fd9e7g8320g8d72gc690gb314459c1e25" version="1">Cleave</content>
+  <content contentuid="h9412d181gf6e2gb4a0gd4edg79bd9197473b" version="1">Swing your weapon in a large arc to attack up to [1] enemies at once.</content>
+  <content contentuid="h57a5cb62gfa84gbbdegaafagaa35b329b26f" version="2">Great Cleave</content>
+  <content contentuid="h12a07287g7781gd876g99f6g730e8e16c4f6" version="2">Swing your weapon in a large arc to attack up to [1] enemies at once. Requires a Heavy weapon.</content>
+  <content contentuid="hf4e7b4f4g8885g0c04g9e97g5f9e4325c3ac" version="3">Ward of Fury</content>
+  <content contentuid="h853212bagf57bg595dgf9f9gf90e234f2468" version="8">When you are Raging and affected by spell damage you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to gain a large amount of Temporary hitpoints. While the &lt;LSTag Type="Status" Tooltip="WARCM"&gt;Ward&lt;/LSTag&gt; holds, you are &lt;LSTag Tooltip="Resistant"&gt;Resistant&lt;/LSTag&gt;to all non-physical damage.</content>
+  <content contentuid="h4f5edc9egdea3gd8f5g496fgb95479f23293" version="2">Ward of Fury</content>
+  <content contentuid="hf6a65d94g5d5cgbc07gc431gf47de93db902" version="7">Warded from the elements. While the ward holds, you are &lt;LSTag Tooltip="Resistance"&gt;Resistant&lt;/LSTag&gt; to spell damage.</content>
+  <content contentuid="h33d7c2c0gf4fdg600ag6213g8c9a6998057a" version="3">Fury Ward</content>
+  <content contentuid="h9a4b98aagc690gb62dg4d89g8aea83ed7aaf" version="6">When you take spell damage you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to gain a large burst of Temporary hitpoints. While the ward holds, you are Resistant to non physical damage. </content>
+  <content contentuid="h12d928ebg7675gb144ge0d0ga1950d19c9ce" version="7">Codex of Might (Defensive)</content>
+  <content contentuid="h7dc9c440g3c81g55c3g9553g3beddc356a8b" version="4">Enhance your durability with a defensive stance.</content>
+  <content contentuid="h8d5d2f22g34aeg5464gf3b1g3caf764bedc6" version="1">Requires Heavy weapon.</content>
+  <content contentuid="h1c952be6ge807gcbb3g9a0ag787428d33702" version="1">Requires Finesse weapon.</content>
+  <content contentuid="h0e6052degddb6g7570gb262g6ac0e6d670d0" version="1">Requires a Heavy weapon.</content>
+  <content contentuid="h7b728301ge720gdb22g7910g2004c0afbf23" version="1">Requires a Finesse weapon.</content>
+  <content contentuid="h60385e30g5740gc35dg9224gb415e16c69b6" version="3">Vigilance</content>
+  <content contentuid="he5ef4be4g7dacg90a1g990fgdc01a34d3364" version="1">Gain an additional &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; per turn.</content>
+  <content contentuid="hfee3a2f3g7f5cgc357ge207g7d58fd652cdc" version="3">Culling Shot</content>
+  <content contentuid="hb93d8565g5ad9gf9cfg3a67ga5dde827851d" version="4">When a foe you have &lt;LSTag Type="Status" Tooltip="HUNTERS_MARK_CM"&gt;Marked&lt;/LStag&gt; becomes severely injured, take a &lt;LSTag Type="Spell" Tooltip="Projectile_SnapShot"&gt;Snap Shot&lt;/LSTag&gt; against them.</content>
+  <content contentuid="h67989d47g6007gf050g812dg5985faeb9fa0" version="1">Snap Shot</content>
+  <content contentuid="h320dd9e0g0b6eg36fag372egbfa54a0a4f5c" version="4">A quick &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reactive&lt;/LSTag&gt; shot against exposed targets.</content>
+  <content contentuid="h82ab2268gb1a8gf542gd54dgb1337fb93c0a" version="1">Distracting Shot</content>
+  <content contentuid="hc07fb02cg3bebgc8c9g9868g4a045ffc5f39" version="1">Culling Strike</content>
+  <content contentuid="h08b47fa8g5553g0481g7ce9gc2e4ab2e97bf" version="4">When a foe you have &lt;LSTag Type="Status" Tooltip="HUNTERS_MARK_CM"&gt;Marked&lt;/LSTag&gt; becomes severely injured, gain an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt;</content>
+  <content contentuid="h9191b217g7079g5036g5a54gf6e0a795ff43" version="1">Cull the Hunted</content>
+  <content contentuid="hcd4a1c9bg46d6g3424g3c54ga61a2705b308" version="1">When a foe you have &lt;LSTag Type="Status" Tooltip="HUNTERS_MARK_CM"&gt;Marked&lt;/LStag&gt; becomes severely injured, make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; against them.</content>
+  <content contentuid="h074df94bg7994gcb17g601dg796b8b07917f" version="1">Hunter's Mark</content>
+  <content contentuid="h0de41d0dge8d8g4d64g6ea1g6de9bb7ec633" version="1">Mark a creature as your quarry to deal an additional [1] whenever you hit it with a weapon attack. </content>
+  <content contentuid="hfb233fa5g0216ga126gc3c6gf06cb98f89b9" version="2">Endless Mark</content>
+  <content contentuid="h31370488g09d1g4757g5713ga6842fbe0142" version="2">Endless Hunt</content>
+  <content contentuid="ha2a50a53g0a85g2f7fg836cgb250a16602b5" version="2">You can use &lt;LSTag Type="Spell" Tooltip="Target_HuntersMark_CM"&gt;Hunter's Mark&lt;/LSTag&gt; without consuming a spell slot or holding Concentration. </content>
+  <content contentuid="h1f21d8e7g119egcae2g1f1cg2f51e17f0b4e" version="2">Arcane Overkill!</content>
+  <content contentuid="h8e01c8e9g27eeg400bgbb23gb0b0d477c235" version="1">##Inform the player AOK procced</content>
+  <content contentuid="h643ad0e8g584dg18b6g96a1g027900a40f53" version="1">Salvation</content>
+  <content contentuid="h8ad05e7fga807gc994gd4c7gd5d3d640fab5" version="2">When you become severely injured from an attack, you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to &lt;LSTag Type="Spell" Tooltip="Target_LayOnHands_SmallHeal"&gt;Lay On Hands&lt;/LSTag&gt; yourself.</content>
+  <content contentuid="h0245eeb9g13b6g660ag73bdgecc05205ff42" version="1">Salvation</content>
+  <content contentuid="h32b2abd3gefc8g85ddg4d3fgf5178bc700dd" version="1">When you become severely injured from an attack, you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to &lt;LSTag Type="Spell" Tooltip="Target_LayOnHands_SmallHeal"&gt;Lay On Hands&lt;/LSTag&gt; yourself.</content>
+  <content contentuid="he3544909g8faeg9822gd290ga105956519e9" version="1">Prayer of Healing</content>
+  <content contentuid="h2ba22fffg6a08gf117g6c41gd504624ef984" version="1">Heal all creatures you can see.</content>
+  <content contentuid="h785fe5cdgfe8agb1b2g59e5gfb09b259ad84" version="2">Requires and consumes your Rage effect.</content>
+  <content contentuid="h3464ed24gf74agaf89g4132g5ab80b16ddf9" version="5">Escaped!</content>
+  <content contentuid="hcba46de8ga4f9g9c80g3b45gfe29e2092ef0" version="7">Foes attack at &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; and you retain your vision through the darkness. Attacking ends the effect.</content>
+  <content contentuid="h156a91e8gf66eg3905g6ea3gc66dd1402e46" version="3">Escape</content>
+  <content contentuid="h7c225a87g3f71gdb54g9d13gc5c91ccd284c" version="9">When you are targeted by an attack, you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to disappear into a plume of smoke, causing the attack to miss and leaving you &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hidden&lt;/LSTag&gt;</content>
+  <content contentuid="hc0879520gab7cg2e24g2fa3gfe6847f9e84c" version="4">Escape</content>
+  <content contentuid="hc44b62f4g1fccg90e8g7fc5g9d93b753a408" version="4">When you are targeted by an attack, you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to disappear in a plume of black smoke, negating incoming ranged attacks and causing Disadvantage on melee attacks against you.</content>
+  <content contentuid="h452d0683g8f2fgb116g3fabg1842d41797b1" version="1">Parry</content>
+  <content contentuid="hdd1780a0g9944g4930ge7ffg669442979903" version="8">Use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to attempt to parry the next attack that may hit you by passing a DC [1]+[2] Strength check. </content>
+  <content contentuid="ha6546a2eg2e79gbd6bg70ebg1042154ec8b7" version="1">Parry</content>
+  <content contentuid="hd5b53626g6e68g3514gc97dg70347a834b84" version="4">Use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to attempt to parry the next attack by passing a DC [1] Strength check. </content>
+  <content contentuid="h9ee70aa9gad44g62beg8e39gd0e0d35260df" version="2">Endure Pain</content>
+  <content contentuid="h98ebed1dg400bg435dg6d86gb476977bc18d" version="3">When you take damage you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to gain [1]. </content>
+  <content contentuid="hc89ad3f3g84cag24a9gabadgc52069ea8861" version="1">Endure Pain</content>
+  <content contentuid="h3ab6d573gfaa5g2dc1g103fgc83aafdc3c44" version="2">Enduring pain. Cannot be critically hit.</content>
+  <content contentuid="h06e2aa83g8a4fg7444g89dfg5dd2add8b155" version="1">Adrenaline Rush</content>
+  <content contentuid="hf50932dbg01c2gdd75gea71gce7de6301124" version="3">When you take damage you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt;to gain a stack of &lt;LSTag Type="Status" Tooltip="ADRUSHCM"&gt;Adrenaline&lt;/LSTag&gt;.</content>
+  <content contentuid="h338fca5fgd649g5678g6bb5g2b71eeab1cd7" version="1">Adrenaline</content>
+  <content contentuid="hd161f620g8426g9596gd874g90eb34252c75" version="4">The next healing effect you receive heals for an additional [1]. This effect can stack. </content>
+  <content contentuid="h20fc6597gcb5ag0a94g1d9bg9b2cca743b77" version="1">Eldritch Power</content>
+  <content contentuid="hab64e09ag54e2g9086g8028g6aeb30e15818" version="6">When you make spell damage rolls, roll your damage twice and use the highest result.</content>
+  <content contentuid="hdf44b79fg2446g7fb3g996dg3ab00587fe4c" version="2">Adrenaline Rush</content>
+  <content contentuid="hf99caf25g712bgdce6gd573g30661236bb63" version="1">Battle Mage Bond</content>
+  <content contentuid="h79869c01g1053g550fgf9cbgcd9187290550" version="1">Bind to your main hand weapon. It cannot leave your hand and uses your Spell Casting Ability modifier for attack and damage rolls.</content>
+  <content contentuid="h0c4a5ef3gb556g5b2cge2c4g0a823a710321" version="2">You can only have one bound weapon at a time. Must be proficient with the weapon type.</content>
+  <content contentuid="hf8cb7405g3f00g285dg5b82g7a6b7642a3b1" version="1">Battle Mage Bond</content>
+  <content contentuid="h15809d76g54deg4c5ag23c7g5a3b3b6ac752" version="4">Bind to your main hand weapon with magical prowess. It cannot leave your hand and uses your Spell Casting Ability modifier for attack and damage rolls.</content>
+  <content contentuid="h8daa2023g955ag7e26ga74bg802111c150cf" version="1">Battle Mage Bound</content>
+  <content contentuid="hb0c6ab01g6cd4g5547g92e1g883fbf767fea" version="1">This weapon cannot leave your hand and uses your Spell Casting Ability modifier for attack and damage rolls.</content>
+  <content contentuid="he55905feg1715g2530g6392g91b03d05cbf1" version="1">Battlemage Bond</content>
+  <content contentuid="h81c9e7bbg2da6g6326g7484g28d9e80a3bf0" version="2">Create a magical bond with your main hand weapon. It cannot leave your hand and uses your Spell Casting Ability modifier for attack and damage rolls.</content>
+  <content contentuid="hf1f4d719g6558g8f3ag720cg8a4dd60a0ab3" version="3">When you take damage you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction&lt;/LSTag&gt; to gain a stack of &lt;LSTag Type="Status" Tooltip="ADRUSHCM"&gt;Adrenaline&lt;/LSTag&gt;, healing for an additional [1] the next time you are healed. This effect stacks.</content>
+  <content contentuid="ha109dbffgfbbdg2564ge5f9g344be8989111" version="3">Trick Die</content>
+  <content contentuid="h45ca8798gd536gfae8g3ecbgd79158a66e3a" version="2">Rogue special skills resource.</content>
+  <content contentuid="hb629a19cg168ag9e7eg363egf0478d5dc937" version="1">Ki Point(s)</content>
+  <content contentuid="hecf3a5c3g726ag0135gc9dfg6e83ea58c503" version="1">Ki is the magic that flows through all living beings. You can use Ki Points to fuel your advanced monk techniques.</content>
+  <content contentuid="h3f86a80bgfcdag4004g217eg6d7de1c67b5f" version="1">A &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reactive&lt;/LSTag&gt; shot that &lt;LSTag Type="Status" Tooltip="SILENCE"&gt;Silences&lt;/LSTag&gt; and disrupts &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt; on hit</content>
+  <content contentuid="h27353bf7g3bd7g552ag58d6g09686ce4a56f" version="1">Endure Pain</content>
+  <content contentuid="h9c30b8f7g52fcgede6gbe60g9e95ba22cf2b" version="5">When you take damage in combat you can use your Reaction to gain Temporary hitpoints equal to your Constitution modifier + [2] that last until the end of the next turn. While Enduring Pain, you cannot be critically hit.</content>
+  <content contentuid="h60e004ffgb395g19b0gd78dg0963955405e3" version="1">Spell Sniper</content>
+  <content contentuid="h22b808acg388bg49e5gf575g014eaa00461f" version="1">The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking with a spell is reduced by 1. This effect can stack.</content>
+  <content contentuid="h6e428d32g4477g3193g1c4fg1495102954d4" version="1">Cure Wounds</content>
+  <content contentuid="h9b5c25fcg30b5g0187g8b12g36b9fc16659c" version="1">Heal a nearby creature.</content>
+  <content contentuid="h92f69bc3g1ecbg8294gec0fga017b91e3a0e" version="1">Healing Word</content>
+  <content contentuid="h205f4cdbgfae6g8bfcgcb35g847aecce462a" version="1">Heal a creature you can see.</content>
+  <content contentuid="h2c4938e3g8a32g501ag675bge7c3f980cfc4" version="1">Mass Cure Wounds</content>
+  <content contentuid="he349e580gc8bdgf3e9gbe7egbb98bc892c1f" version="1">Unleash a soothing hum of energy that heals you and nearby allies. </content>
+  <content contentuid="h2e0a1035g9966g8f81g18e3g520e09965a10" version="1">Mass Healing Word</content>
+  <content contentuid="h43959f84g3025gd9f0ge7abgfe1b9b1fb73f" version="1">Heal your nearby allies.</content>
+  <content contentuid="hc43911deg4612gff27geaf8g4829bbf8ed8f" version="6">Battlehealer</content>
+  <content contentuid="h8cb46061g8662geaf7g019egf6b74b377016" version="7">When you restore hit points to yourself or an ally who is within an enemy's reach, the target is healed for an additional [1], equal to your Level + Proficieny bonus.&lt;br&gt;&lt;br&gt;Casting a healing spell does not provoke Opportunity Attacks.</content>
+  <content contentuid="h75a7fdf7g5b10g79dag2c60g32e629310d21" version="2">Lay on Hands: Swift Lesser Healing</content>
+  <content contentuid="h3fbf1736gcf5bg6443g1cf7gce5f98524a49" version="2">Lay on Hands: Swift Greater Healing</content>
+  <content contentuid="h66cc0e04g9d9fg3256g8c6fg6bb7bb549199" version="2">Lay On Hands: Swift</content>
+  <content contentuid="hd0202533g5ba4gd43cg0303g713d10909b7f" version="1">Lay on Hands: Swift</content>
+  <content contentuid="hc79cb52ag6bb6g59eeg057fgff2e8e618763" version="1">Swiftly use your blessed touch to heal a creature.</content>
+  <content contentuid="hd5ed94fcgdd4ag69e0g0f12g97311929da9d" version="1">Death's Door</content>
+  <content contentuid="h25cbbcc0g37d0g14b2ga561g2aa595bd07ce" version="5">When you drop to 0 hit points for the first time in combat and then regain hit points or become stable, you are on Death's Door. The next time you drop to 0 hit points before taking a Long Rest, you die instantly without making death saving throws.</content>
+  <content contentuid="he5ddb344g26d8gb38cg73e7g28b14b043ce1" version="1">On Death's Door</content>
+  <content contentuid="h077d0266gdeaegd7e9g69c2g2525c2df16a6" version="1">The next downed state will result in immediate death.</content>
+  <content contentuid="h94f15501ga1e2gdcffg4f9fgf77968221bc5" version="3">Battlehealer</content>
+  <content contentuid="h3e3002b1g7665gd3e3g2fd4gde0e9612aca2" version="2">When you restore hit points to yourself or an ally who is within an enemy's reach, the target regains additional hit points equal to your Level + Proficiency Bonus. Your healing spells do not provoke Opportunity Attacks.</content>
+  <content contentuid="h0363b8d1g5393g87a4gfc90g4729ba4b41b3" version="1">Spell Sniper</content>
+  <content contentuid="h5728aaccgf767g7561g0254g7e4c6f872614" version="1">The number you need to &lt;LSTag Tooltip="AttackRoll"&gt;roll&lt;/LSTag&gt; a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; while attacking with a spell is reduced by 1. This effect can stack.</content>
+  <content contentuid="h98371ed1g8f39g3bc6g64f6gd436ede800a3" version="3">Metamagic: Miraculous Spell</content>
+  <content contentuid="h2e5db19dg362fg559cg8cbbg255c3af84d49" version="1">Your healing spells heal for the maximum value.&lt;br&gt;&lt;br&gt;Costs [1] Sorcery Points.&lt;br&gt;&lt;br&gt;Maximized Heal can be used in combination with other Metamagic.</content>
+  <content contentuid="hf9b458b5ga1fagee87g9b14g1b7fe9b06190" version="1">Overblock</content>
+  <content contentuid="h20ba6cbcgc74cg35e7g0598gfcbbb4228702" version="1">Deadeye</content>
+  <content contentuid="h72f98f26g3c18g7e84g5747gb0122501ec54" version="1">Whenever you begin your turn &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hidden&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;, your next ranged attack will result in a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;</content>
+  <content contentuid="h494d9106g884bg6e2bga65fgb02de5f0ba30" version="1">Deadeye</content>
+  <content contentuid="h478c5afeg1b10gc994g66fbg6bc1e81489a8" version="6">Next ranged attack that hits will deal &lt;LSTag Tooltip="CriticalHit"&gt;Critical&lt;/LSTag&gt; damage.</content>
+  <content contentuid="h495de149g8bbcg83fagb008g6edba5ec60b9" version="1">Deathstalker</content>
+  <content contentuid="h5c4927f3gee2ag2310g5141g7f55dc6c40f9" version="2">Once per turn when you kill an enemy, shroud yourself in primaeval darkness to become &lt;LSTag Type="Status" Tooltip="INVISIBILITY"&gt;Invisible&lt;/LSTag&gt; for 2 turns.</content>
+  <content contentuid="h36c9c8e4g4795g7624g01f6g186c0b505a91" version="1">Vigilance</content>
+  <content contentuid="h91090bb3gcce0g2891g187cgb18e8885b205" version="1">Your combat reflexes accelerate. You gain a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;Reaction point&lt;/LSTag&gt;.</content>
+  <content contentuid="h04527888g5438g7bfag5a23gc192c714cb71" version="2">Escape</content>
+  <content contentuid="hf03b3139gc363gf9a7g9595g6e2eab4256fc" version="3">Cloak yourself in a plume of black smoke, becoming &lt;LSTag Type="Status" Tooltip="SNEAKING"&gt;Hidden&lt;/LSTag&gt; and causing Disadvantage on attacks against you &lt;br&gt;&lt;br&gt;You can see through the darkness until the end of turn.</content>
+  <content contentuid="h9e233618g1a92g6518g956egef7d67411911" version="1">##DeadeyeTECH</content>
+  <content contentuid="h021eb5d8g6863gf8afg0de7gdf59062cce23" version="1">##Removes Deadeye if player loses Stealth/Invis</content>
+  <content contentuid="h9723dd27gbe8eg651cgdf51gc8e405ba03e5" version="1">Lacerate</content>
+  <content contentuid="h634bacd2g942aged17gd626ge54a655b3621" version="1">Slash at your target's vital points to make it &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;.</content>
+  <content contentuid="h2cd51626gc134g94f2ga828g4d8370a7de96" version="1">Undead and Constructs can't Bleed.</content>
+  <content contentuid="hc7a7dc5bgdc24ga711g7f55gb60d8a4e59ad" version="2">&lt;LSTag Type="Spell" Tooltip="Target_HuntersMark_CM"&gt;Marked&lt;/LSTag&gt; by a ranger. Suffers an additional 1d6 damage if the spellcaster hits it with a weapon attack</content>
+  <content contentuid="h7a64b49eg4185g31c0g226egfe80f505b917" version="1">Lacerate</content>
+  <content contentuid="h4cf2f44bg7308gb6d4g71c0g65e4435c655f" version="3">You can &lt;LSTag Type="Spell" Tooltip="Target_Slash_CM"&gt;Lacerate&lt;/LSTag&gt; once per turn with any martial weapon.</content>
+  <content contentuid="hcd55cf23g3ab1ge92cg3988ga8c026eead9b" version="1">Arcane Overkill!</content>
+  <content contentuid="h57cbf046ge641gbfa0g898cg0bfa1fcec2f3" version="1">You have gained a Sorcery Point</content>
+  <content contentuid="hd09aa6e4g21d9gead4g072dg9cad3b5ba4e1" version="1">Overmove</content>
+  <content contentuid="h3c78f763g693ag9121gd809g1de271922f0c" version="1">##Make sure Overwatch is used before moving</content>
+  <content contentuid="h4b1a3b81g2b58gf087g3dcfgdb003dc8e0ca" version="1">Fortitude</content>
+  <content contentuid="h7d03d6dfg50cbgcbcagaf04g5131da081bfc" version="2">Reduces all damage you take by your Strength modifier ([1]).</content>
+  <content contentuid="h252025e2g1e38g86bcg2cedgd3811e15fc2c" version="1">Fortitude</content>
+  <content contentuid="h6868eb6eg82aagb228g6880g15b9b1658896" version="1">Reduces all damage you take by your Strength modifier ([1]).</content>
+  <content contentuid="he228cb92gd3aeg41d3gee1ag89ee61d0a623" version="1">Coup De Grace</content>
+  <content contentuid="h0522c3bdg6ea1g6b7fg6261gd8f41d394693" version="4">When a foe you threaten is &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;, knocked &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt; or falls &lt;LSTag Type="Status" Tooltip="UNCONSCIOUS"&gt;Unconscious&lt;/LSTag&gt;, you can make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; against them.</content>
+  <content contentuid="h75c26c2fga027gbb5ag63d4gf21f842a02d4" version="1">Combat Techniques</content>
+  <content contentuid="he1586198gaa55g53c4gfad5g954cb5f4bcc0" version="1">Learn a variety of advanced combat techniques to expand your arsenal.</content>
+  <content contentuid="hbacf6ddbg6b71g55bdg94cfg5c79fa64914f" version="2">When a foe you threaten is &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; or knocked &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;, you can make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; against them with Advantage.</content>
+  <content contentuid="h6586b177g7906gf285g7037g20ba3f2532bd" version="1">Coup de Grace</content>
+  <content contentuid="hb93db579g7630g2d69gcd5bg81fb6213ddf4" version="1">Overmoved</content>
+  <content contentuid="h21524304g085cg7116g639cg67e53af31a35" version="1">Heat</content>
+  <content contentuid="hcc0028f8g0192g72b8gac20g8045f3fd0ca7" version="1">Engulfed by a vengeful fire. Takes [1] each turn, but can use &lt;LSTag Type="Passive" Tooltip="MAG_Fire_Heat_Convergence_Passive"&gt;Heat Convergence&lt;/LSTag&gt;.</content>
+  <content contentuid="h9f0730f8gb99bg6710gbad5g99caae42ba4a" version="1">Heat Convergence</content>
+  <content contentuid="haed81790ga72ag1edcg9334gc01cf3234b5e" version="1">The next time the affected entity deals Fire damage, it deals an additional [1] for every turn of &lt;LSTag Type="Status" Tooltip="MAG_FIRE_HEAT"&gt;Heat&lt;/LSTag&gt; still affecting them.</content>
+  <content contentuid="hc3c464dfg60cbgc01fg4409gaf95828df718" version="1">Pact of the Weave</content>
+  <content contentuid="h57ee0276g9efcg7567ga017gaabd009ca4cb" version="4">Your patron grants you access to &lt;LSTag Type="Passive" Tooltip="Metamagic_Barrage"&gt;Metamagic: Swift Spell&lt;/LSTag&gt; and [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; that replenish on Short Rest.</content>
+  <content contentuid="hf03fae96gd862g8711g2e4dg97c8b49a51bd" version="2">Pact Metamagic: Empowered Spell</content>
+  <content contentuid="hfab4b70cg2c6aga351g6b7dg5dbba4f11484" version="2">Spells that deal direct damage gain &lt;LSTag Tooltip="ADVANTAGE"&gt;Advantage&lt;/LSTag&gt; on spell damage rolls and +2 on Spell Attacks and Spell DC..&lt;br&gt;&lt;br&gt;Costs [1] Sorcery Point&lt;br&gt;&lt;br&gt;You can use Empowered Spell in combination with other Metamagic.</content>
+  <content contentuid="h096d75a3g5e1agcc67g0526gd1c24ab54b34" version="1">You gain an 1 Sorcery Point.</content>
+  <content contentuid="hac558b61g8ccdg7c07g6c9ag212a4fac9d85" version="2">Pact Metamagic: Quickened Spell</content>
+  <content contentuid="h49c1040agee7ega335g833egdac8c01a6a57" version="1">Cast a spell as a &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;Costs [1] Sorcery Points per spell.</content>
+  <content contentuid="ha89f2da2g609eg4d88gc90dg4be042c799c6" version="2">You gain 1 Sorcery Point.</content>
+  <content contentuid="h37a69012g2a0dgb98egdfdag0316f085a646" version="2">Pact Metamagic: Twinned Spell</content>
+  <content contentuid="h6813dcb0g7040gc18bg14f1ga7357114b1e2" version="1">Spells that only target 1 creature can target an additional creature.&lt;br&gt;&lt;br&gt;Costs 1 Sorcery Point per &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; level used. &lt;LSTag Tooltip="Cantrip"&gt;Cantrips&lt;/LSTag&gt; also cost 1 Sorcery Point.</content>
+  <content contentuid="hf34f8aecg7b57g5dc5gbfcagdb7a421621ec" version="1">You gain an 1 Sorcery Point.</content>
+  <content contentuid="h03781125g8dc8gade8g06e0gd2324d023813" version="2">Pact Metamagic: Heightened Spell</content>
+  <content contentuid="h72436e22g6921gda38g4804gc55f181157ad" version="1">Targets of spells that require &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their first Saving Throw. &lt;br&gt;&lt;br&gt;Costs [1] Sorcery Points per spell.</content>
+  <content contentuid="hccd33204gc5f6ga8a7g6e69g51b792c4d5cc" version="1">You gain an 1 Sorcery Point.</content>
+  <content contentuid="h55e16895g5be3g1307g09ecg327d0a32dc87" version="1">Grant Metamagic</content>
+  <content contentuid="h02b90151gcaa2g0688gf284gdc276e3fe52c" version="1">Cast a spell as a &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;. </content>
+  <content contentuid="hc3ffa95fgcf98g2753g0ef6g46a1f6daa3ad" version="2">Recharges on Long Rest.</content>
+  <content contentuid="hb58f7cc7gc54fg2b1ag6202gf85b3f0f4a5b" version="1">Cast a &lt;LSTag Tooltip="Cantrip"&gt;Cantrip&lt;/LSTag&gt; as a &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;</content>
+  <content contentuid="h2bee86d5g972bgff48gaa8fg0f9678994ea5" version="1">Recharges on Short Rest.</content>
+  <content contentuid="h745ef5a7g76f8g8747gcc1dgf2db70e35d34" version="1">Recharges on Short Rest.</content>
+  <content contentuid="hf4e124bcge5bagd27eg5794g1c8546265590" version="1">Spells that only target 1 creature can target an additional creature.</content>
+  <content contentuid="h365b1971g945ag6e61gd6a9gfd28edcd3a84" version="2">For spells that don't shoot a projectile, the targets need to be close enough together. Recharges on Long Rest.</content>
+  <content contentuid="h5fffbfafg69c3gcf55gaea4g300c9f8b1f50" version="1">Recharges on Long Rest.</content>
+  <content contentuid="he8edcd3bg7fb7g329fg1497g451265316f59" version="1">Targets of spells that require &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their first Saving Throw. </content>
+  <content contentuid="hf33aa65agbfabg4616gcb6eg6883f54aba81" version="1">Recharges on Long Rest.</content>
+  <content contentuid="h8d8e6d4dgbb0dgf58age6ebg428cbbb4d71b" version="1">Increase the range of spells by 50%. Melee spells get a range of [3].</content>
+  <content contentuid="h57878cd1gd87bgb0f7g7ecfg4fa1c2dc6a5d" version="1">Recharges on Long Rest.</content>
+  <content contentuid="ha8d6d004g042dg5071g23e9g633c9c448ad9" version="1">Allies automatically succeed &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against spells that require them. </content>
+  <content contentuid="hb2ebf22bgb916g0ea7g2e31g5a2d812ea815" version="1">Recharges on Long Rest.</content>
+  <content contentuid="hb4d995e1g1931g3224g1effg2a863d0eda3c" version="1">Double the duration of conditions, summons, and surfaces caused by spells.</content>
+  <content contentuid="hdea0d0bdga4e3g7a52gc5eag0113f7513837" version="1">Recharges on Long Rest.</content>
+  <content contentuid="h7abf5b50g69ddg219dg62f2g531916dbbd2a" version="1">You can cast spells while Silenced. </content>
+  <content contentuid="h2cb5f587g7cf3ge450g8644gb980ecd02526" version="1">Recharges on Long Rest.</content>
+  <content contentuid="hb580e72dg7877g18a6gb522g12cb4584a874" version="3">Leveled spells that deal direct damage and have a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; deal an additional [1] damage.</content>
+  <content contentuid="h30a84810g2a5cg787bg3833g9f815e7881bc" version="1">Recharges on Short Rest.</content>
+  <content contentuid="h8344073fg4e8fg7213g0099gfb279779fc5a" version="3">Leveled spells that deal direct damage and have a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; deal an additional [2] damage.&lt;br&gt;&lt;br&gt;Costs [1] Wild Shape. </content>
+  <content contentuid="h71adb414gab01gb0d9g7a67g248ad7034a89" version="1">Targets of spells that require &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their first Saving Throw. </content>
+  <content contentuid="hfe519a9fg1b0cg838eg2779g092d039abff0" version="1">Recharges on Short Rest.</content>
+  <content contentuid="hdf3a5d7cgf678g1c73g4fafg9411741fda9a" version="1">Targets of spells that require &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on their first Saving Throw. &lt;br&gt;&lt;br&gt;Costs [1] Wild Shape per spell.</content>
+  <content contentuid="hb6f79f3ag7989gc265g49e7g51170df66e18" version="1">Cast a spell as a &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;. </content>
+  <content contentuid="hb228596agd92cgc540g9671g21ad111f94e6" version="1">Recharges on Short Rest.</content>
+  <content contentuid="h5e47d2a2g8620g43begf0e5ga88440853204" version="1">Cast a spell as a &lt;LSTag Tooltip="BonusAction"&gt;Bonus Action&lt;/LSTag&gt;. &lt;br&gt;&lt;br&gt;Costs [1] Wild Shape per spell.</content>
+  <content contentuid="h57af1e6bg043eg7d83gffb6g43418b0c526f" version="1">Spells that only target 1 creature can target an additional creature.</content>
+  <content contentuid="hd345f96eg519bgd9e7g0f4ag94cad72a476b" version="2">For spells that don't shoot a projectile, the targets need to be close enough together. </content>
+  <content contentuid="h0427672agad0bg7de4gf0efgf9fee1aeeba9" version="1">Spells that only target 1 creature can target an additional creature.&lt;br&gt;&lt;br&gt;Costs [1] Wild Shape per spell.</content>
+  <content contentuid="ha3ffdea4gc593g96e6gfd2eg2690d6ab74a4" version="1">Double the duration of conditions, summons, and surfaces caused by spells. </content>
+  <content contentuid="h23f16a8fgba86g29b2gba57gcf3fc02b54a4" version="1">Recharges on Short Rest.</content>
+  <content contentuid="h1f291466gb03eg61b5g2421g502e7bf5b789" version="1">Double the duration of conditions, summons, and surfaces caused by spells. &lt;br&gt;&lt;br&gt;Costs [1] Wild Shape per spell.</content>
+  <content contentuid="h62c60763ga1f4g7210g3676g5cc5d162ceec" version="2">Divine Metamagic: Maximize Spell (Healing)</content>
+  <content contentuid="h8879a2e6gdfa5g7d3cg86fdg400b2b18dc92" version="1">Your healing spells heal for the maximum value.</content>
+  <content contentuid="h552c71bbg249age431g3ef6g0ad357e1a7bb" version="1">Recharges on Short Rest.</content>
+  <content contentuid="h69e890dcg6e9dg3226gafddgf12348c36236" version="2">Primal Metamagic: Maximize Spell (Healing)</content>
+  <content contentuid="he7b64f05g2571g2dcdg845egc2a0a40d6fed" version="1">Increase the range of spells by 50%. Melee spells get a range of [3].</content>
+  <content contentuid="h0c4c1207g5789g138bgbcaeg6599396d5da3" version="1">Increase the range of spells by 50%. Melee spells get a range of [3].&lt;br&gt;&lt;br&gt;Costs [1] Wild Shape per spell.</content>
+  <content contentuid="h586ccbd3g339fg1d5dg5b62gb3239f6af519" version="2">Studied Metamagic</content>
+  <content contentuid="hb366024bg2012g99e5g5c60gacde3bd7db84" version="1">Through diligent study you can produce metamagic effects, each usable once per Long Rest. Choose from the following Metamagic options.</content>
+  <content contentuid="hcb312ff5g9920g4542g71ebg1b4a9ec65a16" version="1">Greater Metamagic</content>
+  <content contentuid="h252ab00dgba89g5444gc623g4dc801950662" version="3">You have mastered the art of spell twisting, allowing you to push your magic to its maximum potential. Choose from the following Greater Metamagic options.</content>
+  <content contentuid="h979faff3g9d91gdd46g4ae9g1de788f56011" version="2">Divine Metamagic</content>
+  <content contentuid="h85167420gfe89g6a7bg5af8g448caf00d233" version="1">Your diety has bestowed upon you the gift of metamagic that can be used once per Short Rest. Choose from the following Metamagic options.</content>
+  <content contentuid="h86aa324bgaef8g7ca4g52dag61ed40ac2bf6" version="2">Primal Metamagic</content>
+  <content contentuid="hbe8f3d21g11abgf461g6454ge3dc866a67a5" version="1">You gain the ability to channel your natural spirit into metamagic, consuming Wild Shape instead of Sorcery Points. Choose from the following Metamagic options.</content>
+  <content contentuid="h039863fbg2988g9fcag70dagd1f12fc41d8f" version="1">Spells that deal direct damage gain &lt;LSTag Tooltip="ADVANTAGE"&gt;Advantage&lt;/LSTag&gt; on spell damage rolls and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;You can use Empowered Spell in combination with other Metamagic.</content>
+  <content contentuid="h9ea7909bg6c07gcfb2g9a99g028a1eb48e8f" version="2">Divine Metamagic: Twinned Spell</content>
+  <content contentuid="hde6ea041gb5deg3824ge8d0g2165a20540a1" version="2">Primal Metamagic: Twinned Spell</content>
+  <content contentuid="h32220b0agade7g3a73g0ef5g80d238a60660" version="2">Divine Metamagic: Extended Spell</content>
+  <content contentuid="h867d81bcga099gf1c6g9883g86f93c7ea550" version="2">Primal Metamagic: Extended Spell</content>
+  <content contentuid="hb7065364ga19cg7c13g3790g2d5b76b288db" version="2">Minor Metamagic: Distant Spell</content>
+  <content contentuid="h91e506adg30a4gdb1agf7e0ga3db6eb7277a" version="2">Primal Metamagic: Distant Spell</content>
+  <content contentuid="h44fdf41dg7418g33bfg3e3ag8d69d6fdcbff" version="1">Remove Cleric Blks per Short Rest.</content>
+  <content contentuid="h842a034ag19f0gc888ga86cgef97015f4c7d" version="2">Blocks Divine Metamagic on use</content>
+  <content contentuid="h48bcfa4dg7f7ag1a54g1d26gb5b39868add5" version="1">Recharge on Short Rest</content>
+  <content contentuid="h009efec1g75ecg31ebgb034g911af41659be" version="2">Spells that deal direct damage gain &lt;LSTag Tooltip="ADVANTAGE"&gt;Advantage&lt;/LSTag&gt; on spell damage rolls and +2 bonus to Spell Attacks and Spell DC.&lt;br&gt;&lt;br&gt;You can use Empowered Spell in combination with other Metamagic.</content>
+  <content contentuid="h28446c68g9462g999eg8ea9g9a97cb1024e2" version="2">Minor Metamagic: Subtle Spell</content>
+  <content contentuid="hd595bcd4g4144ga099g7c6fg95cce87f2e51" version="1">You can cast spells while Silenced and without breaking Stealth. </content>
+  <content contentuid="hda8c484ega841g6e56g143ag24dfbc6d2ac6" version="1">Minor Metamagic</content>
+  <content contentuid="h1a680e3dg81cag1c59ge35agcde31850343c" version="3">With practice, you learn to make a minor adjustment to your spells once per combat. Choose from the following Metamagic options.</content>
+  <content contentuid="h16b3ae25g698fg5719g647ag0bdff7ac77b5" version="1">Your healing spells heal for the maximum value.&lt;br&gt;&lt;br&gt;Costs [1] Wild Shape.</content>
+  <content contentuid="h78d19344g00afg326cg85b4g221fb01bdcee" version="2">Studied Metamagic: Twinned Spell</content>
+  <content contentuid="h6f6b37e9gd0d7g16c6gbc12gc5a06f0f6809" version="2">Studied Metamagic: Careful Spell</content>
+  <content contentuid="h027dd75bg670eg24d9gd806g724528e1b4d0" version="2">Studied Metamagic: Extended Spell</content>
+  <content contentuid="h44829e3bgf99bg8b77g37b4g87da8172d155" version="3">Leveled spells that deal direct damage and have a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; deal an additional [1] damage.</content>
+  <content contentuid="h283f5f15gecd9gd2c8g8447g9b756bce89b9" version="1">Studied Metamagic: Quickened Spell</content>
+  <content contentuid="h0de8310bg5d87gd782g6f62g425e0a5c60bf" version="3">Minor Metamagic: Swift Spell</content>
+  <content contentuid="h5882f27dge724gbe9fg3b91ge66fbd5fceec" version="1">Studied Metamagic: Heightened Spell</content>
+  <content contentuid="h3736064bg0bb9g9153g4d3fg8e274cc5f142" version="1">Primal Metamagic: Empowered Spell</content>
+  <content contentuid="he30e7de5g7cc6g67d5ge22bg14e254345b51" version="1">Divine Metamagic: Bolstered Spell</content>
+  <content contentuid="hfb98144aga965g4a65gd2fbgaddae23107ad" version="1">Primal Metamagic: Bolstered Spell</content>
+  <content contentuid="h48426553gf3begc817g13a3g2467d6ac5d44" version="1">Divine Metamagic: Heightened Spell</content>
+  <content contentuid="hb7b52ee6g90cdgb57bgc2c0gd3425088c54e" version="1">Primal Metamagic: Heightened Spell</content>
+  <content contentuid="h8c506c4egba37ge0acg052dg8d5b1e3b6b5e" version="1">Divine Metamagic: Quickened Spell</content>
+  <content contentuid="h96c35e3bge5eag7464g61e7gdd08ba9abb4b" version="1">Primal Metamagic: Quickened Spell</content>
+  <content contentuid="hbde7ed21gf47age466g4240g39d6c650bebf" version="1">Minor Metamagic: Empowered Spell</content>
+  <content contentuid="h22320200gfb0fg6bb1gc8a5g19c3b574d511" version="1">Studied Metamagic: Bolstered Spell</content>
+  <content contentuid="h3cfe45cbgdd04gffbeg5d99gdec4cd79e909" version="2">Spells that deal direct damage gain &lt;LSTag Tooltip="ADVANTAGE"&gt;Advantage&lt;/LSTag&gt; on spell damage rolls and +2 bonus on Spell Attacks and Spell DC.&lt;br&gt;&lt;br&gt;Costs [1] Wild Shape.&lt;br&gt;&lt;br&gt;You can use Empowered Spell in combination with other Metamagic.</content>
+  <content contentuid="h4f7db90fg584egd8a5g2fb5gc97fa1677a09" version="1">Blocks Studied Metamagic </content>
+  <content contentuid="h1759930ag334dg4c21gf13eg59068605595e" version="1">Pact of the Weave</content>
+  <content contentuid="h48fae6edg340bg5e80g1085ga25a95afef42" version="1">Your patron grants you access to &lt;LSTag Type="Passive" Tooltip="Metamagic_Barrage"&gt;Metamagic: Salvoed Spell&lt;/LSTag&gt; and [1] &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; that replenish on Short Rest.</content>
+  <content contentuid="h4833ee3cg29aeg7d27g4791ga8df2b0a91f0" version="2">Escape!</content>
+  <content contentuid="h3589629fg62a7g74f7g045ega20fc260dddb" version="3">Escape!</content>
+  <content contentuid="h89d5aae5ge334gcef4gef9bgfe1047cf4665" version="1">Ready Attack</content>
+  <content contentuid="he76d490dge432ga7a7gb114ga680229c8e66" version="1">Ready yourself to attack the next creature that threatens you.</content>
+  <content contentuid="ha6115b92g9e16gfedcga6d3g4392434be508" version="1">Ready Attack</content>
+  <content contentuid="hd00eb663ga489gffaeg58f2g1154d135b6c1" version="2">Make an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt; against a foe who moves to threaten you.</content>
+  <content contentuid="h66c37b2fgb5f3gb0bbgc741gfec38fe2de89" version="1">Ready Attack</content>
+  <content contentuid="h2c3a2d5bg6887g31a5g9e6dg539ba92a5741" version="1">Prepared to strike the next foe that walks into range.</content>
+  <content contentuid="h25b09922g4bb2g6f84gba2fg4938fb3bd8fb" version="1">Ready Attack</content>
+  <content contentuid="ha897eb49gc3afg02d7g30c9g2e4f279be68d" version="1">You can spend your action to ready an attack against the next foe that moves within range.</content>
+  <content contentuid="ha2567706g6b75g3329g99d2g6741c975c302" version="1">Coup de Grace</content>
+  <content contentuid="h824d8c95g4e36g1757gf725g0e995584efd0" version="1">%%Technical Aura</content>
+  <content contentuid="hf6ab0edbg5330gf4b2g8f0fgcebb2a0a9aab" version="1">Deepened Pact</content>
+  <content contentuid="h68ea9b87g162age1e3g1826g2ec65a892327" version="1">Pleased with your service, your otherworldly patron added new boons to the terms of your pact.&lt;br&gt;&lt;br&gt;Pact of the Blade: You gain an &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt; with your pact weapon.&lt;br&gt;&lt;br&gt;Pact of the Chain: Your &lt;LSTag Type="Spell" Tooltip="Target_FindFamiliar"&gt;familiar&lt;/LSTag&gt; gains an Extra Attack.&lt;br&gt;&lt;br&gt;Pact of the Tome: You can cast &lt;LSTag Type="Spell" Tooltip="Target_AnimateDead"&gt;Animate Dead&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Haste"&gt;Haste&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_CallLightning"&gt;Call Lightning&lt;/LSTag&gt; once each per Long Rest.&lt;br&gt;&lt;b&gt;Pact of the Weave: You gain an additional Sorcery Point</content>
+  <content contentuid="hb9958f47g292agc4cfg78ebga48f3062298a" version="1">Sacred Flame</content>
+  <content contentuid="hf23bf473gd252g51c1gf0feg249d52103be2" version="1">Engulf a target in a flame-like radiance.</content>
+  <content contentuid="h00c07393gbc5agcce2gbd18g088879106868" version="1">Deepened Pact</content>
+  <content contentuid="h35aa3461ga96egf6a1g3932g0d661dec1828" version="2">Pleased with your service, your otherworldly patron added new boons to the terms of your pact.&lt;br&gt;&lt;br&gt;Pact of the Blade: You gain an &lt;LSTag Type="Passive" Tooltip="ExtraAttack"&gt;Extra Attack&lt;/LSTag&gt; with your pact weapon.&lt;br&gt;&lt;br&gt;Pact of the Chain: Your &lt;LSTag Type="Spell" Tooltip="Target_FindFamiliar"&gt;familiar&lt;/LSTag&gt; gains an Extra Attack.&lt;br&gt;&lt;br&gt;Pact of the Tome: You can cast &lt;LSTag Type="Spell" Tooltip="Target_AnimateDead"&gt;Animate Dead&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Haste"&gt;Haste&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_CallLightning"&gt;Call Lightning&lt;/LSTag&gt; once each per Long Rest.&lt;br&gt;&lt;br&gt;Pact of the Weave: You gain an additional Sorcery Point</content>
+  <content contentuid="h38f97011gabeag7daag5231g385b992676f5" version="1">Raise Shield</content>
+  <content contentuid="h89c63be3gc85eg2684gcf39g4de722891e42" version="5">Raise your shield in anticipation, reducing incoming physical damage by [1] + [2]. While your shield is raised, you cannot be critically hit by weapon attacks.&lt;br&gt;&lt;br&gt;Your shield remains raised until the start of your next turn.</content>
+  <content contentuid="hea526ce5g1944g0cc9g54e9g877c79cf4880" version="2">Evasive Stance</content>
+  <content contentuid="h4df1925bg8736g5e36g3221g50c927d54303" version="2">Prepare yourself to dodge upcoming attacks, gaining your Dexterity bonus as bonus AC and Advantage to Dexterity saves until the start of next turn or when you are hit by an attack. While in Evasive Stance, you cannot be critically hit. </content>
+  <content contentuid="h2090bd43g3486g715dg3b72g7f83a0b72c44" version="1">Coup de Grace</content>
+  <content contentuid="h8ade85b1ga3begb589ge9c9g492f534f2990" version="2">%%ReactionTrigger</content>
+  <content contentuid="hc22aa93dgb779g20c6g54ecg0373e9c276f0" version="1">Topple</content>
+  <content contentuid="h5807e1d9g2b8cgd6d6gca47ge45c611d7c52" version="1">Swipe at a creature to knock it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+  <content contentuid="h3dc1c97dg1d12gb78eg1249gdf7b9d5fe95f" version="1">Coup de Grace</content>
+  <content contentuid="h2703f14agc0e1g2865g3b15g41d50b237e64" version="1">%%Block</content>
+  <content contentuid="ha51e27a9gcd4cgafd0gb08bg4750547efb2d" version="1">Called Shout Owner</content>
+  <content contentuid="h6b33119fga66fg1ea3g3855g68c7a6137463" version="1">%%Technical Aura</content>
+  <content contentuid="h705b73c7g152bg4520g6e55g7aa84c22dbb8" version="1">Called Shot</content>
+  <content contentuid="hac03a0dag25degc02bgc539gb81daa1381fe" version="1">%%ReactionTrigger</content>
+  <content contentuid="ha3f027d9gd8b6g4d24g3103gad19cbea5789" version="2">Called Shot</content>
+  <content contentuid="hd9416451g48c1g7d67gf5ccgc03033f2f7cf" version="1">%%Block</content>
+  <content contentuid="h3998e8b8ga5b6g420ag9eceg817c5c05d977" version="1">Opportunity Attack (Ranged)</content>
+  <content contentuid="h6201d56fg9f67gfe19g4accg025163efe207" version="1">Automatically attack an enemy who attempts to make a ranged attack.</content>
+  <content contentuid="h8bdb53a2g4269gc942g2ef1g4a486ca11d2d" version="1">Opportunity Attack (Ranged)</content>
+  <content contentuid="h30d4d2f7ga76dgeaf2g1ab9g5114e23f2bf6" version="1">Attack an enemy making a ranged weapon attack.</content>
+  <content contentuid="h7b7c5732g361dg96f8g888fg40cf8d3f5cb3" version="1">Opportunity Attack (Spell Cast)</content>
+  <content contentuid="h06861a01g9b57gac28g0f85gc2bb8f2b95ca" version="1">Attack an enemy when they cast a spell.</content>
+  <content contentuid="hfd178f1dg0161g1fccgef2fgd860eb310397" version="1">A foe triggered your Overwatch.</content>
+  <content contentuid="hfbf37c6cgd271g25a2gc78bg1417ea80483c" version="1">Overwatch</content>
+  <content contentuid="ha0f4b13dg2afcgf515g455bg21448514d0d6" version="1">Opportunity Attack (Spell Cast)</content>
+  <content contentuid="hb44838fag6163ge676g2cf6gb0017bf3866e" version="1">Automatically attack an enemy who attempts to cast a spell.</content>
+  <content contentuid="h9be36dfeg40eag3803g2c80g1e852013a274" version="3">You can cast &lt;LSTag Type="Spell" Tooltip="Target_LayOnHands_Quick"&gt;Lay on Hands&lt;/LSTag&gt; as a bonus action at the cost of an extra charge.</content>
+  <content contentuid="h5370ee6cg3061g9949gc627g1141df911be8" version="1">Healing Hands</content>
+  <content contentuid="h6d118a80gd4b4gb696g7817gdac5e44aecdc" version="1">Your hands move with incredible speed while healing.</content>
+  <content contentuid="hd28f15a7g957fg9721gc723gfc63c2b50007" version="1">Healing Hands</content>
+  <content contentuid="h914ee201gfa6fga561gcaf1g762790a0f9d8" version="1">Arcane Power</content>
+  <content contentuid="h9ab32712gfd0agce84g36d0g1d33dc08a501" version="2">Choose how you wish to channel your arcane might.</content>
+  <content contentuid="h78c48c75g9507gc4b5ge925g8222fb7a683a" version="1">Endure Pain</content>
+  <content contentuid="he5b10153g8715g7eefg691eg7b6fe9f10cdf" version="1">When you take damage in combat you can use your Reaction to gain Temporary hitpoints equal to your Constitution modifier + [2] that last until the end of the next turn. </content>
+  <content contentuid="hd3fc11d8gf075g5783ga475g3ebeae302023" version="1">Raise Shield</content>
+  <content contentuid="he4e8e494gefe2g0ad4gb8ebg647616acead5" version="1">Raise your shield as a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; and negate all physical damage less than twice your Strength modifier.&lt;br&gt;&lt;br&gt;Your shield remains raised until the start of your next turn.</content>
+  <content contentuid="hb57b8514g5054gd1ccg3508g230dbaf106bd" version="1">Backstab</content>
+  <content contentuid="hc22bde1eg337egf3cegedefg116a5f12429a" version="1">Backstab!</content>
+  <content contentuid="hb9f87c9ag8db4g5d6agda4fg231c5952be77" version="1">Lethality</content>
+  <content contentuid="h8d267592g889bg8d09ga301g2559f06577a5" version="1">When scoring a critical hit, roll an additional damage dice.</content>
+  <content contentuid="h8cb51d14g27e5g04adg93a0g598e36e17c18" version="1">When scoring a critical hit, roll an additional damage dice. The number needed to roll a critical hit reduced by 1.</content>
+  <content contentuid="hcdb190fcg4bbfg590dgc0d9g507a5a0f1be7" version="1">When scoring a critical hit, roll two additional damage dice. The number needed to roll a critical hit reduced by 1.</content>
+  <content contentuid="h025a34a2g34a2ga9e3g61c8g08a5aa1f72e8" version="1">Resurrection</content>
+  <content contentuid="ha5f0198bg56f3g7604gf4b6gb97a104a4e38" version="1">Evasive Stance</content>
+  <content contentuid="h5d92cc29g8d30g9503gf02cg5242b790f40d" version="3">Has increased AC, Advantage on Dexterity saves and cannot be critically hit. Ends if struck by an attack.</content>
+  <content contentuid="h7480d092gbef0g9417g1328gf372f15bc060" version="1">Lay on Hands: Lesser Healing</content>
+  <content contentuid="he05b10bfg0d17gea54g65f6g44914d6b6157" version="1">Imbue your hands with divine power to heal a target.</content>
+  <content contentuid="hc861f7e7g49c2gb5acgfc3dgd0b3e307d38c" version="1">Lay on Hands: Greater Healing</content>
+  <content contentuid="h1a0568b7g119ag4cb4gef70gd1cd6bec574d" version="1">Restore Vitality</content>
+  <content contentuid="hc1728ca6gdb52gdc39g927dgb7bc02b566f7" version="1">Use a bonus action to heal yourself or a nearby ally. </content>
+  <content contentuid="heb5dcc2ag0c64g9d3eg984ag489d779eed35" version="1">Requires Heavy weapon.</content>
+  <content contentuid="h88b33304g93c8gc06dg95e2g7adcfe1425be" version="3">When a foe you have &lt;LSTag Type="Status" Tooltip="HUNTERS_MARK_CM"&gt;Marked&lt;/LSTag&gt; becomes severely injured, gain an &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attack&lt;/LSTag&gt;</content>
+  <content contentuid="h3d09882dg133eg42eag6039g353065fb8e78" version="1">Cunning Technique</content>
+  <content contentuid="h863c96deg8ec3g9825gdce9g10a5dd17448c" version="1">Choose a facet of cunning to master.</content>
+  <content contentuid="hc2c6579dgc4c1g4170g0839g09a78e35ae08" version="1">Ferocious Attacks</content>
+  <content contentuid="h1579e07dgf71dge971g3d73g5b56570080c2" version="1">Channel your rage through one of these savage strikes.</content>
+  <content contentuid="h9f44a361gce3fg3102g0551g00959ee8de8d" version="1">Endure Pain</content>
+  <content contentuid="hc623c4b9g4a4eg1532gc34fg40ddbd56b887" version="1">When you take damage in combat you can use your Reaction to gain Temporary hitpoints equal to your Constitution modifier + [2] that last until the end of the next turn. While Enduring Pain, you cannot be critically hit.</content>
+  <content contentuid="hfcf86b6ag410fg8b7fg8c13g9f24c770a919" version="1">Warsongs</content>
+  <content contentuid="hd58c3e00g297dgc591g3f54ga9992ff9a65a" version="2">While in combat, you can perform a warsong that affects yourself and all creatures in line of sight within [1]. Whenever you take damage, you must pass a &lt;LSTag Tooltip="Performance"&gt;Performance&lt;/LSTag&gt; check (DC 10 or half the damage taken, whichever is higher) or the song will fade.</content>
+  <content contentuid="hc8a85b39g561eg01acgf07eg156b2a295fd0" version="2">Xale's Whistling Refrain</content>
+  <content contentuid="h59751281g4a87g6a7fgf7eag670d24605d58" version="4">Inspired by the refrain, you and your allies gain +1d4 bonus to attack rolls and saving throws.</content>
+  <content contentuid="h1c6c17a0g283fg2ce8g453eg3285f77e5729" version="1">Volo's Furious Crescendo</content>
+  <content contentuid="h8e9f1211g57b6ge08ag2f92g70b8069ab2a7" version="2">Riveted by your crescendo, you and your allies deal an additional [1] on weapon attacks.</content>
+  <content contentuid="h8a33734ag22f1g099fg61fcg3fadb03a0700" version="1">Khelben's Enduring Chorus</content>
+  <content contentuid="h48b844cag3473gfc45g2a9egada038cc272f" version="5">Resilient in chorus, you and your allies have their maximum health increased by [1] and +1 bonus to AC.</content>
+  <content contentuid="haf38a179g952ega469g3420gc57a636af612" version="2">Fansy's Anthem of Arms</content>
+  <content contentuid="h1091cc8egf8a7gcb2bg47ddg314220430c4e" version="5">Empowered by the anthem, you and your allies gain the Extra Attack feature if they do not have it and increase movement speed by [1]</content>
+  <content contentuid="hed92ae04g5644g9a23g0ca1g3c3dc3474ee6" version="2">Lliira's Soothing Hymn</content>
+  <content contentuid="hbf2efa8dgbe4agc3dcg81d6g939c22092223" version="3">Soothed by the hymn, you and your allies are healed for [1] and cleansed of damage over time effects.</content>
+  <content contentuid="h4adf50b8gb1d7g7f83ga01cge374729a6e6b" version="2">Shar's Arresting Aria</content>
+  <content contentuid="h0c476f22g9094g1126g432agbcc261c5f310" version="1">Torn asunder by the aria, enemies suffer -1d4 to attack rolls and saving throws.</content>
+  <content contentuid="h9efca9ecg582agea8cg3a29g78116514e45b" version="1">Mystra's Arcane Overture</content>
+  <content contentuid="h1688be80g4e6cgb389g625cg1686c05e749c" version="3">Enlightened by the overture, you and your allies gain +2 to Spell Attack rolls and Spell Save DC. </content>
+  <content contentuid="h363ba366gc92dg00d3ga54cgc49638ad0540" version="1">Bhaal's Baleful Dirge</content>
+  <content contentuid="h7338ee85g435dg3a4dgd6ddgb0bfb208efed" version="1">Torn asunder by the dirge, your enemies take [1] at the start of each turn and have [2] movement speed.</content>
+  <content contentuid="h98f11911g1598geb40g256dgddcad5c5c987" version="2">Xale's Whistling Refrain</content>
+  <content contentuid="hef009ee0g0fe3ga0e8gdba3g02694ad26d4f" version="2">Inspired by your anthem, you and your allies gain +1d4 bonus to attack rolls and saving throws.</content>
+  <content contentuid="h96fb832fg1957gb2b2gf2f0g785d47a0a0a0" version="1">Volo's Furious Crescendo</content>
+  <content contentuid="hb3521aaag995cg2c5bgba96gddff46f6aed2" version="1">Riveted by your crescendo, you and your allies gain an additional [1] on weapon attacks.</content>
+  <content contentuid="h259c7b8bg0ac0ge75bg68d5g780048b34bb7" version="1">Khelben's Enduring Chorus</content>
+  <content contentuid="hbe6fa080g6435g4d42g8e55gb0af0210ee47" version="3">Resilient in chorus, you and your allies have their maximum health increased by [1] and a +1 bonus to AC.</content>
+  <content contentuid="h1194dac1g995fg69a5g6ef0g87c6c49c138f" version="2">Fansy's Anthem of Arms</content>
+  <content contentuid="h05282a54g5fb3gbc4eg0b42g94bcb52e6fa5" version="4">Frenetic from the refrain, you and your allies gain the Extra Attack feature and increase movement speed by [1]</content>
+  <content contentuid="hbfa198f8gca2dg1fb1gf20fgca2439ae8da7" version="2">Lliira's Soothing Hymn</content>
+  <content contentuid="h0f65bbc4ga719g1b60g3b57g2d678c0b383a" version="4">Soothed by the hymn, you and your allies are healed for [1] and are cleansed of damage over time statuses at the start of each turn.</content>
+  <content contentuid="h6fc218dfg4e84gc9a4g519dgf4c9f15b21ee" version="2">Shar's Arresting Aria</content>
+  <content contentuid="h4ecb7658g70f6gce9bge3aeg321bf9c1e806" version="1">Torn asunder by the aria, enemies suffer -1d4 to attack rolls and saving throws.</content>
+  <content contentuid="hd3e95f81g63f3ge8c5g34f1g6c2a6eee8ea0" version="1">Mystra's Arcane Overture</content>
+  <content contentuid="h7f5496b5gbf59gb666g6865g5b48a6aaa032" version="3">Enlightened by the overture, you and your allies gain +2 to Spell Attack rolls and Spell Save DC.</content>
+  <content contentuid="hb326479bg9bf9gd6c7gcf51gb7e133d9b0c7" version="1">Bhaal's Baleful Dirge</content>
+  <content contentuid="h6e4a242cg4c1ag8dc1gbe77g051ddac4474b" version="2">Torn asunder by the dirge, your enemies take [1] at the start of each turn and have their movement speed reduced by [2].</content>
+  <content contentuid="hb82ee274ga0d7g5d1bg26begb1be728082b5" version="2">Gain +1d4 bonus to attack rolls and saving throws.</content>
+  <content contentuid="h6d1b1409g0be4g658dgc2f4g9cf5eeb87a14" version="1">Deal an additional [1] on weapon attacks.</content>
+  <content contentuid="h843c0a73g1169g8d50gd916g57f3fa71355b" version="3">Gain +2 to Spell Attack rolls and Spell Save DC. </content>
+  <content contentuid="hab1121c0g738dgab83g0eb1g3901446a8cac" version="4">Increase maximum health by [1] and a +1 bonus to AC.</content>
+  <content contentuid="h9608a3feg0a36gb27fg5607gc6e09ec5bac6" version="4">Gain the Extra Attack feature if you do not have it and increase movement speed by [1]</content>
+  <content contentuid="ha5e0602dg9a2fg7a80ge4eegfeb82bcb33f5" version="2">At the start of each turn, heal for [1] and cleanse any lingering damage over time effects.</content>
+  <content contentuid="h2cb7d36cg7041ge42dgf759g4852ac005583" version="2">Unraveled by the aria, has -1d4 to attack rolls and saving throws.</content>
+  <content contentuid="hc13d7887g4ce4g06bcg6e49gad75fc7d0278" version="2">Takes [1] at the start of each turn and has movement speed reduced by [2]</content>
+  <content contentuid="h3c9d83c0g392eg3d41gb6abg1bf5b918feee" version="1">Warsongs</content>
+  <content contentuid="h31d6c5f7gf7acg16f1g12f6g6226418bea03" version="3">Choose songs to add to your repertorie.</content>
+  <content contentuid="h7a45bbf7g2095ga8a7gca4egdaa47f6c4a25" version="1">Warsongs</content>
+  <content contentuid="hfaacd3b5ga9f1g0984gdbf9gd9fa107ca989" version="3">While in combat, you can perform a warsong that affects yourself and all creatures in line of sight within [1]. Whenever you take damage, you must pass a &lt;LSTag Tooltip="Performance"&gt;Performance check&lt;/LSTag&gt; (DC= 8 + Charisma modifier + Proficiency bonus or half the damage taken, whichever is higher) or the song will fade.</content>
+  <content contentuid="h517e910cga919g2880g9cdegcfed008c5a1a" version="1">Medley</content>
+  <content contentuid="hab6d5e27g78c7ge978gf80agb97cfacd4ce0" version="3">Warsongs now stack with each other but failing a &lt;LSTag Tooltip="Performance"&gt;Performance check&lt;/LSTag&gt; ends all active songs. </content>
+  <content contentuid="h4670ac30gc0f6g30a3gcb9age39749fa5819" version="2">Maestro</content>
+  <content contentuid="h91aeefaegcefcg7681gf3feg6fb4a0caaed4" version="2">Warsongs now last for 4 turns.</content>
+  <content contentuid="hcd8f1117g400eg3b66g8d9bgf8573afc5031" version="2">Virtuoso</content>
+  <content contentuid="h40195f23g814eg1a7eg7d4fgf97a56c074cc" version="2">Warsongs now last for 3 turns.</content>
+  <content contentuid="h8fc56da8g5981ga215gca4ag457ffc71fbc5" version="2">Increase the range of &lt;LSTag Type="Spell" Tooltip="Target_CureWounds"&gt;Cure Wounds&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_LesserRestoration"&gt;Lesser Restoration&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt; by [1].</content>
+  <content contentuid="h18a3ac80g1893gdf76gc668gcf04a7c88749" version="1">##BhaalTechnical</content>
+  <content contentuid="h741d923fgf31fg66e5ge112g36e3b3a78f9f" version="1">Stop Bhaal from cheesing on retry</content>
+  <content contentuid="hcec4b740gfae3g0e5ege54eg7ca1651b3ef8" version="1">Destructive Magic</content>
+  <content contentuid="h792cc6dbg525cg0eaeg821ag9cf45b8dabd3" version="1">When you score a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; with spells, you roll an additional two damage dice</content>
+  <content contentuid="h8d5bf3fcg2240gd3b9g1fedgfe01d5d435c1" version="1">Destructive Magic</content>
+  <content contentuid="hd8c09041g55d6g6bdfga11ag25adf00b653e" version="1">Your magic seethes with power, how do you wish to channel it?</content>
+  <content contentuid="hc761ee74ga2a6g06c0gf46fg930d980ba5af" version="1">Divine Grace</content>
+  <content contentuid="h1a44d1eeg5da3g35f4g176ag75077256b975" version="1">Free Casting</content>
+  <content contentuid="h0b77a1b1gc817g82a1g7ae9g451eb149bd57" version="1">You cannot be interrupted or AoO</content>
+  <content contentuid="hcf150b7bg0854gbe6dg3c16gd15591beae90" version="1">Divine Grace</content>
+  <content contentuid="h41c00910g6220ga53ag1b57gfb9a92a6cdcf" version="3">Increase the range of &lt;LSTag Type="Spell" Tooltip="Target_CureWounds"&gt;Cure Wounds&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_LesserRestoration"&gt;Lesser Restoration&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_GreaterRestoration"&gt;Greater Restoration&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt; by [1]. </content>
+  <content contentuid="h6c0243b7g01bag221bg8930g7f3b5e4f8a4f" version="1">Divine Grace</content>
+  <content contentuid="h98509e4agc19bg4e54g4947g9128dc1f1463" version="3">Your &lt;LSTag Tooltip="Constitution"&gt;Constitution&lt;/LSTag&gt;, &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by 1, to a maximum of 20.&lt;br&gt;&lt;br&gt;Increase the range of &lt;LSTag Type="Spell" Tooltip="Target_CureWounds"&gt;Cure Wounds&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_LesserRestoration"&gt;Lesser Restoration&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_GreaterRestoration"&gt;Greater Restoration&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Teleportation_Revivify"&gt;Revivify&lt;/LSTag&gt;.</content>
+  <content contentuid="hdd824eb6gc2d2g5383g4b46g6fb182d3952d" version="1">Divine Twinned</content>
+  <content contentuid="haf0db68ag4551g54b2g2b99gc2f944705208" version="1">Divine Bolster</content>
+  <content contentuid="h9c73f37dg334bgf9f8g9ccegf9b5a320b0ff" version="1">Divine Heighten</content>
+  <content contentuid="h33267336ge3a8gf5c3g5e75g3bae6e824d78" version="1">Divine Quicken</content>
+  <content contentuid="h7f454c89ge050g651ag5bfagf7b1be792217" version="1">Divine Extended</content>
+  <content contentuid="h892f593fg963eg77e8g335agb432a0f1a6c6" version="1">Divine MaxHeal</content>
+  <content contentuid="hf6c22594gf42ag8944g3996gb206ef5bf279" version="1">Dtwin</content>
+  <content contentuid="hca4e1658g8f43gcd98gd48eg33cf8d02167e" version="1">Recharge on Short Rest</content>
+  <content contentuid="hbcc4a23eg3216g37bfgf60eg574fa35934d9" version="1">Recharge on Short Rest</content>
+  <content contentuid="hec6ac51ag0188ga5a3gd731g1b65de06e9f1" version="1">Recharge on Short Rest</content>
+  <content contentuid="hd69a0f3fgcf11gd1ebgaf35g4b32d7e13920" version="1">Recharge on Short Rest</content>
+  <content contentuid="h04d092c3gaef4g7e41ge4aag1c93ab6df3c5" version="1">Recharge on Short Rest</content>
+  <content contentuid="h99a9786bg5608gab5egad39gadae8e56733d" version="1">Recharge on Short Rest</content>
+  <content contentuid="h652c1e73g193cgc2acg6797g941f0e94ab59" version="1">Minor Block</content>
+  <content contentuid="hfae741bbg5df4gede2g7471g8aeb0ef0c14b" version="1">Teleport to and attack an enemy as a &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; if they cast a spell with [1]</content>
+  <content contentuid="hba8cef34g24d6g09f7g6ddbg14f20d178a5e" version="1">Point Blank Shot</content>
+  <content contentuid="he36e6dd6gc3fagaa50g48d4g7cfa469f2d15" version="1">Make a ranged attack against a foe within [1], knocking them back [1] on hit.</content>
+  <content contentuid="h180af834g154bg2b60g6028g3e94f7efc004" version="1">Point Blank Shot</content>
+  <content contentuid="h29e1e7eeg3096ge525gdc34g15e34c96d4d0" version="3">You fire a &lt;LSTag Type="Spell" Tooltip="Projectile_PointBlankShot"&gt;Point Blank Shot&lt;/LSTag&gt; at foes who threaten you. Your ranged weapon attacks no longer provoke &lt;LSTag Tooltip="Opportunity"&gt;Opportunity Attacks&lt;/LSTag&gt;.</content>
+  <content contentuid="hc16ceaa5gefdcg080dg080egbe5912d6e0ac" version="1">Recharge on Long Rest</content>
+  <content contentuid="hcf56006ag6a39ge547g2be4gcc63a4797dd0" version="1">Recharge on Long Rest</content>
+  <content contentuid="h674a9bbfg35beg4775gc292g2c9f3b51e720" version="1">Recharge on Long Rest</content>
+  <content contentuid="h50fe4c9cg48a4g1c34g0ae0g267797ddea49" version="1">Recharge on Long Rest</content>
+  <content contentuid="he21a37fcg336agdbc9gd2ddg94b9f3adfa95" version="1">Recharge on Long Rest</content>
+  <content contentuid="hf29a4301g588dge1b8g8351gfeb82b65f641" version="1">Recharge on Long Rest</content>
+  <content contentuid="h7b8d885agb905gc3d7gf973g782c94271ac0" version="1">Sharpshooter: All In</content>
+  <content contentuid="h4b0ea0f9g5da8g87c0g4886gf924012a8979" version="2">Ranged weapon attacks with weapons you are &lt;LSTag Tooltip="Proficiency"&gt;Proficient&lt;/LSTag&gt; with have a -[1] penalty to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;, but deal an additional [2] damage.&lt;br&gt;&lt;br&gt;One handed ranged weapons gain half of this penalty/bonus (-3 to hit, 5 damage)</content>
+  <content contentuid="h4f5063ecgb85ag8e95g2facg59c4373da016" version="1">You gain 1 Sorcery Point.</content>
+  <content contentuid="h03db33a4ga9e4g54c7g0e89g90bde88cf7be" version="1">You gain 1 Sorcery Point.</content>
+  <content contentuid="hdd94070agf9e3g8d6dgb4d5g3366166bd60b" version="1">Expand your arsenal with new ranged attacks and reactions.</content>
+  <content contentuid="h290826bcg0bbdg192ag933bgdf5c2580d7fe" version="1">Bladesinging</content>
+  <content contentuid="h94ae89e6gbe83g162cg9c12g2949146866b3" version="1">Invoking the Bladesong. You gain a +[1] bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; and your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is increased by [2]. You also gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; in Acrobatics and a +[1] bonus to Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+</contentList>

@@ -1,0 +1,270 @@
+function ParryModCheck(entity)
+    entity = entity or context.Observer or context.Source
+    return entity.ProficiencyBonus * 2
+end
+
+function DodgeModCheck(entity)
+    entity = entity or context.Observer or context.Source
+    return entity.ProficiencyBonus * 2
+end
+
+function HealingSpellCheck()
+    return (
+        SpellId('Target_CureWounds')
+        | IsSpellChildOrVariantFromContext('Target_CureWounds')
+        | SpellId('Target_HealingWord')
+        | IsSpellChildOrVariantFromContext('Target_HealingWord')
+        | SpellId('Target_CureWounds_Mass')
+        | IsSpellChildOrVariantFromContext('Target_CureWounds_Mass')
+        | SpellId('Shout_PrayerOfHealing')
+        | IsSpellChildOrVariantFromContext('Shout_PrayerOfHealing')
+        | SpellId('Shout_HealingWord_Mass')
+        | IsSpellChildOrVariantFromContext('Shout_HealingWord_Mass')
+	| SpellId('Target_LesserRestoration')
+	| SpellId('Target_GreaterRestoration')
+	| SpellId('Teleportation_Revivify')
+	| IsSpellChildOrVariantFromContext('Teleportation_Revivify')
+    ) & HasSpellFlag(SpellFlags.Spell)
+end
+
+function DivineGrace()
+	return  SpellId('Target_CureWounds')
+        | IsSpellChildOrVariantFromContext('Target_CureWounds')
+	| SpellId('Teleportation_Revivify')
+	| IsSpellChildOrVariantFromContext('Teleportation_Revivify')
+	| SpellId('Target_LesserRestoration')
+	| SpellId('Target_GreaterRestoration')
+end
+
+
+function IsHeal()
+    return HasFunctor(StatsFunctorType.RegainHitPoints) & HasSpellFlag(SpellFlags.Spell)
+end
+
+function DamageGreaterThirdMaxHP(entity)
+    entity = entity or context.Target
+    local threshold = math.floor(entity.MaxHP * 0.33)
+    return ConditionResult(context.HitDescription.TotalDamageDone > threshold)
+end
+
+function StrengthMod(expected, entity)
+    entity = entity or context.Source
+    return ConditionResult(GetModifier(entity.Strength) == expected)
+end
+
+function WisdomMod(expected, entity)
+    entity = entity or context.Source
+    return ConditionResult(GetModifier(entity.Wisdom) == expected)
+end
+
+function IntelligenceMod(expected, entity)
+    entity = entity or context.Source
+    return ConditionResult(GetModifier(entity.Intelligence) == expected)
+end
+
+function DexterityMod(expected, entity)
+    entity = entity or context.Source
+    return ConditionResult(GetModifier(entity.Dexterity) == expected)
+end
+
+function ConstitutionMod(expected, entity)
+    entity = entity or context.Source
+    return ConditionResult(GetModifier(entity.Constitution) == expected)
+end
+
+function ReactionDodgeDC(entity)
+    entity = entity or context.Source
+    return 8 + entity.ProficiencyBonus + GetModifier(entity.Dexterity)
+end
+
+function ReactionParryDC(entity)
+    entity = entity or context.Observer
+    return 8 + entity.ProficiencyBonus + GetModifier(entity.Strength)
+end
+
+function IsAspectFire()
+    return IsDamageTypeFire()
+        | IsDamageTypeRadiant()
+        | SpellDamageTypeIs(DamageType.Fire)
+        | SpellDamageTypeIs(DamageType.Radiant)
+        | SpellId('Projectile_Sunfire') | IsSpellChildOrVariantFromContext('Projectile_Sunfire')
+        | SpellId('Target_Flashfire')   | IsSpellChildOrVariantFromContext('Target_Flashfire')
+        | SpellId('Wall_WallOfFire')    | IsSpellChildOrVariantFromContext('Wall_WallOfFire')
+	| SpellId('Target_ConsecrateFlames') | IsSpellChildOrVariantFromContext('Target_ConsecrateFlames')
+end
+
+function IsAspectEarth()
+    return IsDamageTypeThunder()
+        | IsDamageTypeForce()
+        | SpellDamageTypeIs(DamageType.Thunder)
+        | SpellDamageTypeIs(DamageType.Force)
+        | SpellId('Shout_EarthTremor')          | IsSpellChildOrVariantFromContext('Shout_EarthTremor')
+        | SpellId('Target_EruptingEarth')       | IsSpellChildOrVariantFromContext('Target_EruptingEarth')
+        | SpellId('Target_EarthenGrasp')        | IsSpellChildOrVariantFromContext('Target_EarthenGrasp')
+        | SpellId('Shout_MagicStone')           | IsSpellChildOrVariantFromContext('Shout_MagicStone')
+        | SpellId('Zone_Fissure')               | IsSpellChildOrVariantFromContext('Zone_Fissure')
+        | SpellId('Projectile_KineticBlast')    | IsSpellChildOrVariantFromContext('Projectile_KineticBlast')
+	| SpellId('Target_Fulminate')		| IsSpellChildOrVariantFromContext('Target_Fulminate')
+end
+
+function IsAspectFrost()
+    return IsDamageTypeCold()
+        | SpellDamageTypeIs(DamageType.Cold)
+        | SpellId('Target_IceStorm') | IsSpellChildOrVariantFromContext('Target_IceStorm')
+        | SpellId('Wall_WallOfIce')  | IsSpellChildOrVariantFromContext('Wall_WallOfIce')
+        | SpellId('Target_SleetStorm') | IsSpellChildOrVariantFromContext('Target_SleetStorm')
+        | SpellId('Target_Frostbite') | IsSpellChildOrVariantFromContext('Target_Frostbite')
+        | SpellId('Projectile_IceSpike') | IsSpellChildOrVariantFromContext('Projectile_IceSpike')
+	| SpellId('Zone_Rime')	| IsSpellChildOrVariantFromContext('Zone_Rime')
+end
+
+function IsAspectAir()
+    return IsDamageTypeLightning()
+        | SpellDamageTypeIs(DamageType.Lightning)
+        | SpellId('Zone_GustOfWind')  | IsSpellChildOrVariantFromContext('Zone_GustOfWind')
+        | SpellId('Zone_WindWall')    | IsSpellChildOrVariantFromContext('Zone_WindWall')
+        | SpellId('Target_StormCloud') | IsSpellChildOrVariantFromContext('Target_StormCloud')
+        | SpellId('Projectile_Stormstrike') | IsSpellChildOrVariantFromContext('Projectile_Stormstrike')
+        | SpellId('Target_TidalWave')   | IsSpellChildOrVariantFromContext('Target_TidalWave')
+	| SpellId('Target_StormCloud')	| IsSpellChildOrVariantFromContext('Target_StormCloud')
+end
+
+function IsRevelation()
+    return SpellId('Target_Fulminate')	| IsSpellChildOrVariantFromContext('Target_Fulminate')
+	| SpellId('Target_StormCloud')	| IsSpellChildOrVariantFromContext('Target_StormCloud')
+	| SpellId('Target_ConsecratedFlames')	| IsSpellChildOrVariantFromContext('Target_ConsecratedFlames')
+	| SpellId('Zone_Rime')	| IsSpellChildOrVariantFromContext('Zone_Rime')
+end
+
+function VirulentSpell()
+     return SpellDamageTypeIs(DamageType.Poison)
+	| SpellId('Target_Cloudkill') | IsSpellChildOrVariantFromContext('Target_Cloudkill')
+end
+
+function WrathBelowWisdom()
+    local curr = GetStatusDuration('WRATHASPECT', context.Target)
+    local mod  = GetModifier(context.Source.Wisdom)
+    return ConditionResult(curr < mod)
+end
+
+function ConsecrateFlameCheck(ability, dc, result)
+    result = result or false
+    local primedBurn = HasAnyStatus({'BURNING','BURNING_HOLY','PURIFIED_FLAMES','BURNING_BLAZE'}, {}, {}, context.Target)
+    local primedElec = HasAnyStatus({'ELECTROCUTE','SHOCKED_SURFACE','SHOCKED_WRATH'}, {}, {}, context.Target)
+    if primedBurn.Result or primedElec.Result then
+        return ConditionResult(true, {}, {}, 1.0)
+    end
+    local st = ~SavingThrow(ability, dc)
+    return ConditionResult(st.Result, {}, {}, st.Chance)
+end
+
+function IsConductor()
+    return (SpellDamageTypeIs(DamageType.Thunder) | SpellDamageTypeIs(DamageType.Lightning)) & HasSpellFlag(SpellFlags.Spell)
+end
+
+function DistanceToSourceGreaterThan(value)
+    local errorTrue = {ConditionError("DistanceGreaterThan_True", {ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance)})}
+    local errorFalse = {ConditionError("DistanceGreaterThan_False", {ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance)})}
+    return ConditionResult(DistanceToSource() > value, errorFalse, errorTrue)
+end
+
+function IsMeleeMainHandTwoHanded(entity)
+    entity = entity or context.Source
+    local w = GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, entity)
+    if not w.IsValid then
+        return ConditionResult(false)
+    end
+    local twoH   = HasWeaponProperty(WeaponProperties.Twohanded, w).Result
+    local vers2H = HasVersatileTwoHanded().Result
+    return ConditionResult(twoH or vers2H)
+end
+
+function IsBomb()
+    return SpellId('Projectile_AcidBomb')
+        | SpellId('Projectile_FireBomb')
+        | SpellId('Projectile_FrostBomb')
+        | SpellId('Projectile_PoisonBomb')
+        | SpellId('Projectile_ThunderBomb')
+        | SpellId('Projectile_LightningBomb')
+        | SpellId('Projectile_ForceBomb')
+        | SpellId('Projectile_NecroticBomb')
+        | SpellId('Projectile_RadiantBomb')
+        | SpellId('Projectile_PsychicBomb')
+end
+
+function IsFriarbond()
+    return SpellId('Target_Friarbond_Bless')
+        | SpellId('Target_Friarbond_Vitality')
+        | SpellId('Target_Friarbond_Valor')
+        | SpellId('Target_Friarbond_Retribution')
+        | SpellId('Target_Friarbond_Faith')
+end
+
+function InceptionCheck() 
+	return HasStringInSpellRoll('SavingThrow(Ability.Wisdom') & HasSpellFlag(SpellFlags.Spell) 
+end
+
+function IsWisdomSavingThrow()
+    return HasInterruptedSavingThrow()
+        & (HasStringInSpellRoll('SavingThrow(Ability.Wisdom')
+           | HasStringInFunctorConditions('SavingThrow(Ability.Wisdom'))
+end
+
+function IsClericCantrip()
+	return SpellId ('Target_SacredFlame') | SpellId ('Target_TollTheDead') | SpellId ('Target_BurstingSinew') | SpellId ('Projectile_MindSilver')
+end
+
+function IsInterruptedWisdomOrIntSave()
+    return HasInterruptedSavingThrow()
+        & (HasStringInSpellRoll('SavingThrow(Ability.Wisdom')
+           | HasStringInFunctorConditions('SavingThrow(Ability.Wisdom')
+           | HasStringInSpellRoll('SavingThrow(Ability.Intelligence')
+           | HasStringInFunctorConditions('SavingThrow(Ability.Intelligence'))
+end
+
+function IsNightmareInteresting()
+    local rollSuccess = context.InterruptedRoll.Total >= context.InterruptedRoll.Difficulty
+    return ConditionResult(not rollSuccess)
+end
+
+function IsInterruptedSaveFailure()
+    local rollSuccess = context.InterruptedRoll.Total >= context.InterruptedRoll.Difficulty
+    return ConditionResult(not rollSuccess)
+end
+
+function WarsongDC()
+    local pb = context.Target.ProficiencyBonus
+    local cha = GetModifier(context.Target.Charisma)
+    local spellDC = 8 + pb + cha
+    local damageDC = math.floor(context.HitDescription.TotalDamageDone / 2)
+    return math.max(spellDC, damageDC)
+end
+
+function IsWarsong()
+    return SpellId('Shout_Warsong_Xale_DTO')   | SpellId('Shout_Warsong_Volo_DTO')
+        | SpellId('Shout_Warsong_Khelben_DTO')  | SpellId('Shout_Warsong_Fansy_DTO')
+        | SpellId('Shout_Warsong_Lliira_DTO')   | SpellId('Shout_Warsong_Shar_DTO')
+        | SpellId('Shout_Warsong_Mystra_DTO')   | SpellId('Shout_Warsong_Bhaal_DTO')
+end
+
+function HasAllyFlankingTarget()
+    local allies = GetAlliesWithinRange(1.5, context.Target, context.Source)
+    if allies ~= nil then
+        for _, entity in ipairs(allies.Allies) do
+            if entity ~= context.Source then
+                return ConditionResult(true)
+            end
+        end
+    end
+    return ConditionResult(false)
+end
+
+function Sharpshooter(entity)
+    entity = entity or context.Source
+    local weapon = context.AttackWeapon
+    local isTwoHanded = HasWeaponProperty(WeaponProperties.Twohanded, weapon)
+    return WieldingWeapon('Ammunition', false, false, entity)
+        & IsRangedWeaponAttack()
+        & IsProficientWith(entity, GetAttackWeapon(entity))
+        & isTwoHanded
+end

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="ConditionErrors">
+        <node id="root">
+            <children>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hca4e1658g8f43gcd98gd48eg33cf8d02167e" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_DivineTwinned_False"/>
+                    <attribute id="UUID" type="guid" value="608eb64b-aca0-409d-9d39-7e7b209fe45e"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hbcc4a23eg3216g37bfgf60eg574fa35934d9" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_DivineBolster_False"/>
+                    <attribute id="UUID" type="guid" value="38f79fce-8183-4a4a-870d-54c59f60b406"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hec6ac51ag0188ga5a3gd731g1b65de06e9f1" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_DivineExtend_False"/>
+                    <attribute id="UUID" type="guid" value="0b48eff5-44f0-4051-b999-7181d4724c8d"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd69a0f3fgcf11gd1ebgaf35g4b32d7e13920" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_DivineQuicken_False"/>
+                    <attribute id="UUID" type="guid" value="d065b341-c424-4e83-bd28-f0a0a0c6ed0f"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h04d092c3gaef4g7e41ge4aag1c93ab6df3c5" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_DivineHeighten_False"/>
+                    <attribute id="UUID" type="guid" value="4d266c74-63d6-48a9-bb42-98ae97852c81"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc16ceaa5gefdcg080dg080egbe5912d6e0ac" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_StudiedTwinned"/>
+                    <attribute id="UUID" type="guid" value="922c2ae9-82ba-4995-8faa-1819a25b1028"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h99a9786bg5608gab5egad39gadae8e56733d" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_DivineMaxHeal_False"/>
+                    <attribute id="UUID" type="guid" value="09b56534-208f-4bce-9c7a-0cebdd2af9bd"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hcf56006ag6a39ge547g2be4gcc63a4797dd0" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_StudiedQuicken"/>
+                    <attribute id="UUID" type="guid" value="5b602c74-c47d-4c30-ad2b-fbe3287243e3"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h674a9bbfg35beg4775gc292g2c9f3b51e720" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_StudiedBolster"/>
+                    <attribute id="UUID" type="guid" value="33d6b0cd-935a-4a12-b1e7-e9e44312e671"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h50fe4c9cg48a4g1c34g0ae0g267797ddea49" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_StudiedHeighten"/>
+                    <attribute id="UUID" type="guid" value="063bce1e-9e22-4ec2-9188-15c9ed6fdfaa"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="he21a37fcg336agdbc9gd2ddg94b9f3adfa95" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_StudiedExtend"/>
+                    <attribute id="UUID" type="guid" value="00c39a18-fb5e-49f5-a2f7-4ef2293a893f"/>
+                </node>
+                <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf29a4301g588dge1b8g8351gfeb82b65f641" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="CE_ActionResource_StudiedCareful"/>
+                    <attribute id="UUID" type="guid" value="e6800bde-d2b1-476e-8bfa-c11425ddaa0a"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

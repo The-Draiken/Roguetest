@@ -1,0 +1,51 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+// =====================================
+// LETHALITY (NPC-only, static per level bracket)
+// =====================================
+
+// Lvl5
+IF
+    EnteredCombat(_Char, _Combat)
+AND
+    GetLevel(_Char, _Level)
+AND
+    _Level >= 5
+AND
+    _Level < 11
+AND
+    IsPlayer((CHARACTER)_Char,0)
+THEN
+    AddPassive(_Char, "Lethal1_CM");
+
+// Lvl11
+IF
+    EnteredCombat(_Char, _Combat)
+AND
+    GetLevel(_Char, _Level)
+AND
+    _Level >= 11
+AND
+    _Level < 17
+AND
+    IsPlayer((CHARACTER)_Char,0)
+THEN
+    AddPassive(_Char, "Lethal2_CM");
+
+// L17
+IF
+    EnteredCombat(_Char, _Combat)
+AND
+    GetLevel(_Char, _Level)
+AND
+    _Level >= 17
+AND
+    IsPlayer((CHARACTER)_Char,0)
+THEN
+    AddPassive(_Char, "Lethal3_CM");
+EXITSECTION
+
+ENDEXITSECTION

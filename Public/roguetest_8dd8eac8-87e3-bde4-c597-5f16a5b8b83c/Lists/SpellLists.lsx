@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Escape"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Enshroud_CM"/>
+                    <attribute id="UUID" type="guid" value="8379b6b8-6a78-40c2-a245-1f86d769e746"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warsongs"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Warsong_Xale_DTO;Shout_Warsong_Volo_DTO;Shout_Warsong_Khelben_DTO;Shout_Warsong_Fansy_DTO;Shout_Warsong_Lliira_DTO;Shout_Warsong_Shar_DTO;Shout_Warsong_Mystra_DTO;Shout_Warsong_Bhaal_DTO;"/>
+                    <attribute id="UUID" type="guid" value="e83ce5d8-e0bf-49d2-a7fd-2bff9b427ef0"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="WarsongBase"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Warsong_DTO"/>
+                    <attribute id="UUID" type="guid" value="114f52b9-2428-4f89-8712-61a608d4b530"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="FeatDescriptions">
+        <node id="root">
+            <children>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h3e3002b1g7665gd3e3g2fd4gde0e9612aca2" version="2"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h94f15501ga1e2gdcffg4f9fgf77968221bc5" version="3"/>
+                    <attribute id="ExactMatch" type="FixedString" value="COMBATMEDIC_CM"/>
+                    <attribute id="FeatId" type="guid" value="d848d33f-0aba-4098-b0fb-a4399cbe48ba"/>
+                    <attribute id="UUID" type="guid" value="bff879e1-a276-42e7-94f4-c5a4f546edec"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h7dc9c440g3c81g55c3g9553g3beddc356a8b" version="4"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h12d928ebg7675gb144ge0d0ga1950d19c9ce" version="7"/>
+                    <attribute id="ExactMatch" type="FixedString" value="CM_DEFENSE"/>
+                    <attribute id="FeatId" type="guid" value="120f1cdc-c686-492d-af83-40267f93c81d"/>
+                    <attribute id="UUID" type="guid" value="de078ea3-0689-487a-948e-8315006486cc"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h0f57be48g8bb5g15b2gdcf2g2c2177f98646" version="6"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h812e43f9g6945g434eg5368g6786e7bfebc2" version="6"/>
+                    <attribute id="ExactMatch" type="FixedString" value="CM_MELEE"/>
+                    <attribute id="FeatId" type="guid" value="0c95c234-26cb-4bd5-b2bf-afaf81580ffc"/>
+                    <attribute id="UUID" type="guid" value="5b489022-4051-4d69-be8c-595146590054"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hdd94070agf9e3g8d6dgb4d5g3366166bd60b" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h12944fd1gf620gbb08ga968g721bc63dfb4f" version="5"/>
+                    <attribute id="ExactMatch" type="FixedString" value="CM_RANGED"/>
+                    <attribute id="FeatId" type="guid" value="1d945e73-f38b-4e87-a155-ff28d5da5b47"/>
+                    <attribute id="UUID" type="guid" value="b7536d87-8553-4ade-ac50-c3722294747d"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h91090bb3gcce0g2891g187cgb18e8885b205" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h36c9c8e4g4795g7624g01f6g186c0b505a91" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="VIGILANCE"/>
+                    <attribute id="FeatId" type="guid" value="4cb24a13-2a05-4195-a774-7c6693f8a5df"/>
+                    <attribute id="UUID" type="guid" value="6b1013a6-9142-4c46-ac4f-42b938268a7c"/>
+                </node>
+                <node id="FeatDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h98509e4agc19bg4e54g4947g9128dc1f1463" version="3"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6c0243b7g01bag221bg8930g7f3b5e4f8a4f" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="DIVINEGRACE_CM"/>
+                    <attribute id="FeatId" type="guid" value="2dbee91c-c22c-4977-87fa-2bd9dd1d734a"/>
+                    <attribute id="UUID" type="guid" value="ff15d1b0-2bb5-49fc-b560-4810c5d0301f"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
