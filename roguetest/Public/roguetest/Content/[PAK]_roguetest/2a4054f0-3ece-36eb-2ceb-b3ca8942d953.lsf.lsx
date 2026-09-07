@@ -7,7 +7,7 @@
 				<node id="Resource">
 					<attribute id="ID" type="FixedString" value="2a4054f0-3ece-36eb-2ceb-b3ca8942d953" />
 					<attribute id="Name" type="LSString" value="newAtlas" />
-					<attribute id="SourceFile" type="LSString" value="Public/roguetest_8dd8eac8-87e3-bde4-c597-5f16a5b8b83c/Assets/Textures/Icons/newAtlas.dds" />
+					<attribute id="SourceFile" type="LSString" value="Public/roguetest/Assets/Textures/Icons/newAtlas.dds" />
 					<attribute id="Template" type="FixedString" value="newAtlas" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Type" type="int32" value="1" />

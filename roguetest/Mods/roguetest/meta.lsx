@@ -86,7 +86,7 @@
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
           <attribute id="Description" type="LSString" value="As part of Daelen's Testament of the Otherworldly, this mod attempts to import the best parts of Pathfinder in a 5e friendly way to enhance your combat experience." />
           <attribute id="FileSize" type="uint64" value="35475963" />
-          <attribute id="Folder" type="LSString" value="roguetest_8dd8eac8-87e3-bde4-c597-5f16a5b8b83c" />
+          <attribute id="Folder" type="LSString" value="roguetest" />
           <attribute id="LobbyLevelName" type="FixedString" value="" />
           <attribute id="MD5" type="LSString" value="fef34b0a2129fd3eab414500eecdf79c" />
           <attribute id="MenuLevelName" type="FixedString" value="" />

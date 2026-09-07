@@ -8,6 +8,114 @@ function DodgeModCheck(entity)
     return entity.ProficiencyBonus * 2
 end
 
+-- DTO's wizard metamagic must also recognize well-formed mod spells that omit
+-- SpellFlags.Spell. Spell level is a safer compatibility fallback than an ID
+-- allow-list and still excludes ordinary weapon/item actions.
+function DTOMetamagicSpellCheck()
+    return HasSpellFlag(SpellFlags.Spell)
+        | NonSpellMetamagicAbilities()
+        | IsCantrip()
+        | IsSpellLevel(1)
+        | IsSpellLevel(2)
+        | IsSpellLevel(3)
+        | IsSpellLevel(4)
+        | IsSpellLevel(5)
+        | IsSpellLevel(6)
+        | IsSpellLevel(7)
+        | IsSpellLevel(8)
+        | IsSpellLevel(9)
+end
+
+function DTOHasSavingThrow()
+    return HasStringInSpellRoll('SavingThrow')
+        | HasStringInFunctorConditions('SavingThrow')
+        | HasStringInSpellRoll('SpellAutoResolveOnAlly')
+        | HasStringInSpellRoll('SpellAutoResolveOnCharmed')
+        | HasStringInSpellRoll('HeatMetalInitialCheck')
+        | HasStringInSpellRoll('HeatMetalReapplyCheck')
+end
+
+function DTOWizardQuickenedSpellCheck()
+    return HasUseCosts('ActionPoint') & DTOMetamagicSpellCheck()
+end
+
+function DTOWizardHeightenedSpellCheck()
+    return DTOHasSavingThrow() & DTOMetamagicSpellCheck()
+end
+
+function DTOWizardCarefulSpellCheck()
+    return HasStringInSpellRoll('SavingThrow')
+        & DTOMetamagicSpellCheck()
+        & (~HasStringInSpellConditions('Ally()') | HasStringInSpellConditions('SculptSpells'))
+end
+
+function DTOWizardExtendedSpellCheck()
+    return ~(SpellId('Zone_BurningHands') | SpellId('Zone_BurningHands_2'))
+        & ((HasExtendableStatus() & HasDuration(StatsFunctorType.Status, 0))
+            | HasDuration(StatsFunctorType.Summon, 0)
+            | HasDuration(StatsFunctorType.SummonInInventory, 0)
+            | HasDuration(StatsFunctorType.CreateSurface, 0))
+        & DTOMetamagicSpellCheck()
+end
+
+function DTOWizardBolsteredSpellCheck()
+    return DTOHasSavingThrow()
+        & HasFunctor(StatsFunctorType.DealDamage)
+        & ~IsCantrip()
+        & ~HasAttackRoll()
+        & ~IsSurfaceEffectSpell()
+        & DTOMetamagicSpellCheck()
+end
+
+function DTOWizardTwinnedProjectileSpellCheck()
+    return ~NumberOfTargetsGreaterThan(1)
+        & ~AreaRadiusGreaterThan(0)
+        & DTOMetamagicSpellCheck()
+        & SpellTypeIs(SpellType.Projectile)
+        & ~MetamagicExclusionSpells()
+        & ~IsSpellChildOrVariantFromContext('Projectile_WitchBolt')
+        & ~IsSpellChildOrVariantFromContext('Projectile_ChainLightning')
+end
+
+function DTOWizardTwinnedTargetSpellCheck()
+    return ~NumberOfTargetsGreaterThan(1)
+        & TargetRadiusGreaterThan(1.5)
+        & ~AreaRadiusGreaterThan(0)
+        & DTOMetamagicSpellCheck()
+        & SpellTypeIs(SpellType.Target)
+        & ~HasFunctor(StatsFunctorType.Summon)
+        & ~MetamagicExclusionSpells()
+end
+
+function DTOWizardTwinnedTargetTouchSpellCheck()
+    return ~NumberOfTargetsGreaterThan(1)
+        & TargetRadiusGreaterThan(0)
+        & ~TargetRadiusGreaterThan(1.5)
+        & ~AreaRadiusGreaterThan(0)
+        & DTOMetamagicSpellCheck()
+        & SpellTypeIs(SpellType.Target)
+        & ~HasFunctor(StatsFunctorType.Summon)
+        & ~MetamagicExclusionSpells()
+end
+
+function DTOWizardTwinnedProjectileSpellCheckReaper()
+    return DTOWizardTwinnedProjectileSpellCheck()
+        & ~SpellId('Target_TollTheDead')
+        & ~SpellId('Target_ChillTouch')
+end
+
+function DTOWizardTwinnedTargetSpellCheckReaper()
+    return DTOWizardTwinnedTargetSpellCheck()
+        & ~SpellId('Target_TollTheDead')
+        & ~SpellId('Target_ChillTouch')
+end
+
+function DTOWizardTwinnedTargetTouchSpellCheckReaper()
+    return DTOWizardTwinnedTargetTouchSpellCheck()
+        & ~SpellId('Target_TollTheDead')
+        & ~SpellId('Target_ChillTouch')
+end
+
 function HealingSpellCheck()
     return (
         SpellId('Target_CureWounds')
